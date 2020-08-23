@@ -31,4 +31,4 @@ If you are new to Docker or this application our issue tracker is **ONLY** used 
 <!--- Provide your docker create/run command or compose yaml snippet, or a screenshot of settings if using a gui to create the container -->
 
 ## Docker logs
-<!--- Provide a full docker log, output of "docker logs healthchecks" -->
+<!--- Provide a full docker log, output of "docker logs netbox" -->
