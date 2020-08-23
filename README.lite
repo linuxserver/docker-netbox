@@ -12,6 +12,8 @@ docker create \
   --name=netbox \
   -e PUID=1000 \
   -e PGID=1000 \
+  -e SUPERUSER_EMAIL=<SUPERUSER_EMAIL> \
+  -e SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD> \
   -e ALLOWED_HOST=<ALLOWED_HOST> \
   -e DB_NAME=<DB_NAME> \
   -e DB_USER=<DB_USER> \

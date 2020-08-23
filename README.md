@@ -66,6 +66,8 @@ docker create \
   --name=netbox \
   -e PUID=1000 \
   -e PGID=1000 \
+  -e SUPERUSER_EMAIL=<SUPERUSER_EMAIL> \
+  -e SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD> \
   -e ALLOWED_HOST=<ALLOWED_HOST> \
   -e DB_NAME=<DB_NAME> \
   -e DB_USER=<DB_USER> \
@@ -97,6 +99,8 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
+      - SUPERUSER_EMAIL=<SUPERUSER_EMAIL>
+      - SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD>
       - ALLOWED_HOST=<ALLOWED_HOST>
       - DB_NAME=<DB_NAME>
       - DB_USER=<DB_USER>
@@ -123,6 +127,8 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 8000` | will map the container's port 8000 to port 8000 on the host |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
+| `-e SUPERUSER_EMAIL=<SUPERUSER_EMAIL>` | Username for admin account |
+| `-e SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD>` | Password for admin account |
 | `-e ALLOWED_HOST=<ALLOWED_HOST>` | The hostname you will use to access the app (i.e., netbox.example.com |
 | `-e DB_NAME=<DB_NAME>` | Databaes name (optional, default: netbox) |
 | `-e DB_USER=<DB_USER>` | Database user |
