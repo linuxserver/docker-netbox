@@ -25,6 +25,12 @@ if [ ! -f "/config/configuration.py" ]; then
 	done
 fi
 
+[[ ! -e "/config/media" ]] && \
+	mv /app/netbox/netbox/media /config/media
+
+rm -rf /app/netbox/netbox/media
+ln -sf /config/media /app/netbox/netbox/media
+
 ln -sf /config/configuration.py /app/netbox/netbox/netbox/configuration.py
 
 mv /defaults/uwsgi.ini /app/netbox/netbox/uwsgi.ini > /dev/null 2>&1
