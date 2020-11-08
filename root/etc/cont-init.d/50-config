@@ -46,7 +46,7 @@ s6-setuidgid abc /usr/bin/python3 netbox/manage.py migrate
 
 if [ -n "$SUPERUSER_EMAIL" ] && [ -n "$SUPERUSER_PASSWORD" ];
 then
-cat << EOF | s6-setuidgid abc python3 /app/healthchecks/manage.py shell
+cat << EOF | s6-setuidgid abc python3 /app/netbox/netbox/manage.py shell
 from django.contrib.auth.models import User;
 
 username = 'admin';
