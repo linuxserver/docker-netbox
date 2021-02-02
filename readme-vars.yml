@@ -23,13 +23,14 @@ param_usage_include_env: true
 param_env_vars:
   - { env_var: "SUPERUSER_EMAIL", env_value: "<SUPERUSER_EMAIL>", desc: "Username for admin account" }
   - { env_var: "SUPERUSER_PASSWORD", env_value: "<SUPERUSER_PASSWORD>", desc: "Password for admin account" }
-  - { env_var: "ALLOWED_HOST", env_value: "<ALLOWED_HOST>", desc: "The hostname you will use to access the app (i.e., netbox.example.com" }
+  - { env_var: "ALLOWED_HOST", env_value: "<ALLOWED_HOST>", desc: "The hostname you will use to access the app (i.e., netbox.example.com)" }
+  - { env_var: "BASE_PATH", env_value: "<BASE_PATH>", desc: "The path you will use to access the app (i.e., /netbox, optional, default: none)" }
   - { env_var: "DB_NAME", env_value: "<DB_NAME>", desc: "Databaes name (optional, default: netbox)" }
   - { env_var: "DB_USER", env_value: "<DB_USER>", desc: "Database user" }
   - { env_var: "DB_PASSWORD", env_value: "<DB_PASSWORD>", desc: "Database password" }
-  - { env_var: "DB_HOST", env_value: "<DB_HOST>", desc: "Database post (optional, default: postgres" }
+  - { env_var: "DB_HOST", env_value: "<DB_HOST>", desc: "Database post (optional, default: postgres)" }
   - { env_var: "DB_PORT", env_value: "<DB_PORT>", desc: "Database port (optional)" }
-  - { env_var: "REDIS_HOST", env_value: "<REDIS_HOST>", desc: "Redis host (optional, default: redis" }
+  - { env_var: "REDIS_HOST", env_value: "<REDIS_HOST>", desc: "Redis host (optional, default: redis)" }
   - { env_var: "REDIS_PORT", env_value: "<REDIS_PORT>", desc: "Redis port number (optional, default: 6379)" }
   - { env_var: "REDIS_PASSWORD", env_value: "<REDIS_PASSWORD>", desc: "Redis password (optional, default: none)" }
   - { env_var: "TZ", env_value: "<TZ>", desc: "Timezone (i.e., America/New_York)" }
@@ -45,4 +46,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "02.01.21:", desc: "Added BASE_PATH environment variable." }
   - { date: "23.08.20:", desc: "Initial Release." }
