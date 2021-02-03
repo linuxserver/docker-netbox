@@ -27,7 +27,7 @@ param_env_vars:
   - { env_var: "DB_NAME", env_value: "<DB_NAME>", desc: "Databaes name (optional, default: netbox)" }
   - { env_var: "DB_USER", env_value: "<DB_USER>", desc: "Database user" }
   - { env_var: "DB_PASSWORD", env_value: "<DB_PASSWORD>", desc: "Database password" }
-  - { env_var: "DB_HOST", env_value: "<DB_HOST>", desc: "Database post (optional, default: postgres" }
+  - { env_var: "DB_HOST", env_value: "<DB_HOST>", desc: "Database host (optional, default: postgres" }
   - { env_var: "DB_PORT", env_value: "<DB_PORT>", desc: "Database port (optional)" }
   - { env_var: "REDIS_HOST", env_value: "<REDIS_HOST>", desc: "Redis host (optional, default: redis" }
   - { env_var: "REDIS_PORT", env_value: "<REDIS_PORT>", desc: "Redis port number (optional, default: 6379)" }
