@@ -139,7 +139,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e DB_NAME=<DB_NAME>` | Database name (optional, default: netbox) |
 | `-e DB_USER=<DB_USER>` | Database user |
 | `-e DB_PASSWORD=<DB_PASSWORD>` | Database password |
-| `-e DB_HOST=<DB_HOST>` | Database post (optional, default: postgres) |
+| `-e DB_HOST=<DB_HOST>` | Database host (optional, default: postgres) |
 | `-e DB_PORT=<DB_PORT>` | Database port (optional) |
 | `-e REDIS_HOST=<REDIS_HOST>` | Redis host (optional, default: redis) |
 | `-e REDIS_PORT=<REDIS_PORT>` | Redis port number (optional, default: 6379) |
