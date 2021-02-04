@@ -79,6 +79,7 @@ services:
       - SUPERUSER_EMAIL=<SUPERUSER_EMAIL>
       - SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD>
       - ALLOWED_HOST=<ALLOWED_HOST>
+      - BASE_PATH=<BASE_PATH>
       - DB_NAME=<DB_NAME>
       - DB_USER=<DB_USER>
       - DB_PASSWORD=<DB_PASSWORD>
@@ -105,6 +106,7 @@ docker run -d \
   -e SUPERUSER_EMAIL=<SUPERUSER_EMAIL> \
   -e SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD> \
   -e ALLOWED_HOST=<ALLOWED_HOST> \
+  -e BASE_PATH=<BASE_PATH> \
   -e DB_NAME=<DB_NAME> \
   -e DB_USER=<DB_USER> \
   -e DB_PASSWORD=<DB_PASSWORD> \
@@ -132,13 +134,14 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e SUPERUSER_EMAIL=<SUPERUSER_EMAIL>` | Username for admin account |
 | `-e SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD>` | Password for admin account |
-| `-e ALLOWED_HOST=<ALLOWED_HOST>` | The hostname you will use to access the app (i.e., netbox.example.com |
-| `-e DB_NAME=<DB_NAME>` | Databaes name (optional, default: netbox) |
+| `-e ALLOWED_HOST=<ALLOWED_HOST>` | The hostname you will use to access the app (i.e., netbox.example.com) |
+| `-e BASE_PATH=<BASE_PATH>` | The path you will use to access the app (i.e., /netbox, optional, default: none) |
+| `-e DB_NAME=<DB_NAME>` | Database name (optional, default: netbox) |
 | `-e DB_USER=<DB_USER>` | Database user |
 | `-e DB_PASSWORD=<DB_PASSWORD>` | Database password |
-| `-e DB_HOST=<DB_HOST>` | Database post (optional, default: postgres |
+| `-e DB_HOST=<DB_HOST>` | Database post (optional, default: postgres) |
 | `-e DB_PORT=<DB_PORT>` | Database port (optional) |
-| `-e REDIS_HOST=<REDIS_HOST>` | Redis host (optional, default: redis |
+| `-e REDIS_HOST=<REDIS_HOST>` | Redis host (optional, default: redis) |
 | `-e REDIS_PORT=<REDIS_PORT>` | Redis port number (optional, default: 6379) |
 | `-e REDIS_PASSWORD=<REDIS_PASSWORD>` | Redis password (optional, default: none) |
 | `-e TZ=<TZ>` | Timezone (i.e., America/New_York) |
@@ -252,4 +255,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **02.01.21:** - Added BASE_PATH environment variable.
 * **23.08.20:** - Initial Release.
