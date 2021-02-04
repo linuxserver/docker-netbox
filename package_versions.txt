@@ -52,7 +52,7 @@ py3-olefile-0.46-r4
 py3-ordered-set-4.0.1-r0
 py3-packaging-20.4-r0
 py3-parsing-2.4.7-r0
-py3-pillow-7.1.2-r0
+py3-pillow-7.1.2-r1
 py3-setuptools-47.0.0-r0
 py3-six-1.15.0-r0
 python3-3.8.5-r0
@@ -62,7 +62,7 @@ shadow-4.8.1-r0
 sqlite-libs-3.32.1-r0
 ssl_client-1.31.1-r19
 tiff-4.1.0-r0
-tzdata-2020c-r1
+tzdata-2020f-r0
 uwsgi-2.0.18-r8
 uwsgi-python3-2.0.18-r8
 xz-5.2.5-r0
