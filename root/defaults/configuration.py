@@ -83,7 +83,7 @@ BANNER_LOGIN = ''
 
 # Base URL path if accessing NetBox within a directory. For example, if installed at http://example.com/netbox/, set:
 # BASE_PATH = 'netbox/'
-BASE_PATH = ''
+BASE_PATH = '{{BASE_PATH}}'
 
 # Cache timeout in seconds. Set to 0 to dissable caching. Defaults to 900 (15 minutes)
 CACHE_TIMEOUT = 900
