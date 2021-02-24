@@ -25,9 +25,9 @@ libffi-3.3-r2
 libimagequant-2.12.6-r0
 libintl-0.20.2-r0
 libjpeg-turbo-2.0.5-r0
-libldap-2.4.50-r1
+libldap-2.4.50-r2
 libpng-1.6.37-r1
-libpq-12.5-r0
+libpq-12.6-r0
 libproc-3.3.16-r0
 libsasl-2.1.27-r6
 libssl1.1-1.1.1j-r0
@@ -45,7 +45,7 @@ ncurses-libs-6.2_p20200523-r0
 ncurses-terminfo-base-6.2_p20200523-r0
 openjpeg-2.3.1-r6
 pcre-8.44-r0
-postgresql-client-12.5-r0
+postgresql-client-12.6-r0
 procps-3.3.16-r0
 py3-appdirs-1.4.4-r1
 py3-olefile-0.46-r4
