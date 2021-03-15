@@ -47,8 +47,10 @@ s6-setuidgid abc /usr/bin/python3 netbox/manage.py migrate
 
 if [ -n "$SUPERUSER_EMAIL" ] && [ -n "$SUPERUSER_PASSWORD" ];
 then
+
 cat << EOF | s6-setuidgid abc python3 /app/netbox/netbox/manage.py shell
 from django.contrib.auth.models import User;
+from users.models import Token;
 
 username = 'admin';
 password = '$SUPERUSER_PASSWORD';
@@ -60,4 +62,23 @@ if User.objects.filter(username=username).count()==0:
 else:
     print('Superuser creation skipped. Already exists.');
 EOF
+
+
+	if [ -n "$SUPERUSER_API_TOKEN" ]
+	then
+
+cat << EOF | s6-setuidgid abc python3 /app/netbox/netbox/manage.py shell
+from django.contrib.auth.models import User;
+from users.models import Token;
+
+username = 'admin';
+token = '$SUPERUSER_API_TOKEN';
+
+u=User.objects.get(username=username);
+Token.objects.create(user=u, key=token);
+print('Superuser API Key added.');
+
+EOF
+
+	fi
 fi
