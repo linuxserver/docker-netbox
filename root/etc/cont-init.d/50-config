@@ -3,12 +3,12 @@
 if [ "${PYTHONPATH}X" != "X" ]; then
 	echo "WARNING: IGNORING PYTHONPATH: ${PYTHONPATH}" >&2
 fi
-export PYTHONPATH=
+unset PYTHONPATH
 
 if [ "${DJANGO_SETTINGS_MODULE}X" != "X" ]; then
 	echo "WARNING: IGNORING DJANGO_SETTINGS_MODULE: ${DJANGO_SETTINGS_MODULE}" >&2
 fi
-export DJANGO_SETTINGS_MODULE=
+unset DJANGO_SETTINGS_MODULE
 
 mkdir -p /config/scripts
 
