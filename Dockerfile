@@ -53,16 +53,13 @@ RUN \
 	build-dependencies && \
  rm -rf \
 	/root/.cache \
-	/tmp/* \
-cp -v /init /start-container
-
-# Run a different command to attempt to stop systemd ruining our day by detecting
-# we're running init as the start command and trying to map /var/run to /run on
-# CentOS and Fedora patched docker installs
-ENTRYPOINT [ "/start-container" ]
+	/tmp/* && \
+ln -vs /init /init.centos
 
 # copy local files
 COPY root/ /
+
+ENTRYPOINT [ "/init.centos" ]
 
 # ports and volumes
 EXPOSE 8000
