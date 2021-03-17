@@ -7,6 +7,11 @@ ARG NETBOX_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="alex-phillips"
 
+# Fix an issue when running the patched CentOS/Fedora/RHEL docker version which runs
+# hooks depending on the command being run. If it's `init` then we end up running
+# systemd hooks which maps /run to /var/run.
+VOLUME [ "/run" ]
+
 RUN \
  echo "**** install build packages ****" && \
  apk add --no-cache --upgrade --virtual=build-dependencies \
