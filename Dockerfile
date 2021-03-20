@@ -53,10 +53,13 @@ RUN \
 	build-dependencies && \
  rm -rf \
 	/root/.cache \
-	/tmp/*
+	/tmp/* && \
+ln -vs /init /init.centos
 
 # copy local files
 COPY root/ /
+
+ENTRYPOINT [ "/init.centos" ]
 
 # ports and volumes
 EXPOSE 8000

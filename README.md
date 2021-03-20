@@ -78,6 +78,7 @@ services:
       - PGID=1000
       - SUPERUSER_EMAIL=<SUPERUSER_EMAIL>
       - SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD>
+      - SUPERUSER_API_TOKEN=<SUPERUSER_TOKEN>
       - ALLOWED_HOST=<ALLOWED_HOST>
       - BASE_PATH=<BASE_PATH>
       - DB_NAME=<DB_NAME>
@@ -105,6 +106,7 @@ docker run -d \
   -e PGID=1000 \
   -e SUPERUSER_EMAIL=<SUPERUSER_EMAIL> \
   -e SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD> \
+  -e SUPERUSER_API_TOKEN=<SUPERUSER_TOKEN> \
   -e ALLOWED_HOST=<ALLOWED_HOST> \
   -e BASE_PATH=<BASE_PATH> \
   -e DB_NAME=<DB_NAME> \
@@ -134,6 +136,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e SUPERUSER_EMAIL=<SUPERUSER_EMAIL>` | Username for admin account |
 | `-e SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD>` | Password for admin account |
+| `-e SUPERUSER_API_TOKEN=<SUPERUSER_API_TOKEN>` | 40 character api token for admin account |
 | `-e ALLOWED_HOST=<ALLOWED_HOST>` | The hostname you will use to access the app (i.e., netbox.example.com) |
 | `-e BASE_PATH=<BASE_PATH>` | The path you will use to access the app (i.e., /netbox, optional, default: none) |
 | `-e DB_NAME=<DB_NAME>` | Database name (optional, default: netbox) |
@@ -255,5 +258,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **15.03.21:** - Added SUPERUSER_API_TOKEN environment variable.
 * **02.01.21:** - Added BASE_PATH environment variable.
 * **23.08.20:** - Initial Release.
