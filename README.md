@@ -158,12 +158,12 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e REDIS_HOST=<REDIS_HOST>` | Redis host (optional, default: redis) |
 | `-e REDIS_PORT=<REDIS_PORT>` | Redis port number (optional, default: 6379) |
 | `-e REDIS_PASSWORD=<REDIS_PASSWORD>` | Redis password (optional, default: none) |
-| `-e REMOTE_AUTH_ENABLED=<REMOTE_AUTH_ENABLED>` | Enable remote authentication (optional, default: False |
-| `-e REMOTE_AUTH_BACKEND=<REMOTE_AUTH_BACKEND>` | Python path to the custom Django authentication backend to use for external user authentication (optional, default: netbox.authentication.RemoteUserBackend |
-| `-e REMOTE_AUTH_HEADER=<REMOTE_AUTH_HEADER>` | Name of the HTTP header which informs NetBox of the currently authenticated user. (optional, default: HTTP_REMOTE_USER |
-| `-e REMOTE_AUTH_AUTO_CREATE_USER=<REMOTE_AUTH_AUTO_CREATE_USER>` | If true, NetBox will automatically create local accounts for users authenticated via a remote service (optional, default: False |
-| `-e REMOTE_AUTH_DEFAULT_GROUPS=<REMOTE_AUTH_DEFAULT_GROUPS>` | The list of groups to assign a new user account when created using remote authentication (optional, default: [] |
-| `-e REMOTE_AUTH_DEFAULT_PERMISSIONS=<REMOTE_AUTH_DEFAULT_PERMISSIONS>` | A mapping of permissions to assign a new user account when created using remote authentication (optional, default: {} |
+| `-e REMOTE_AUTH_ENABLED=<REMOTE_AUTH_ENABLED>` | Enable remote authentication (optional, default: False) |
+| `-e REMOTE_AUTH_BACKEND=<REMOTE_AUTH_BACKEND>` | Python path to the custom Django authentication backend to use for external user authentication (optional, default: netbox.authentication.RemoteUserBackend) |
+| `-e REMOTE_AUTH_HEADER=<REMOTE_AUTH_HEADER>` | Name of the HTTP header which informs NetBox of the currently authenticated user. (optional, default: HTTP_REMOTE_USER) |
+| `-e REMOTE_AUTH_AUTO_CREATE_USER=<REMOTE_AUTH_AUTO_CREATE_USER>` | If true, NetBox will automatically create local accounts for users authenticated via a remote service (optional, default: False) |
+| `-e REMOTE_AUTH_DEFAULT_GROUPS=<REMOTE_AUTH_DEFAULT_GROUPS>` | The list of groups to assign a new user account when created using remote authentication (optional, default: []) |
+| `-e REMOTE_AUTH_DEFAULT_PERMISSIONS=<REMOTE_AUTH_DEFAULT_PERMISSIONS>` | A mapping of permissions to assign a new user account when created using remote authentication (optional, default: {}) |
 | `-e TZ=<TZ>` | Timezone (i.e., America/New_York) |
 | `-v /config` | config directory volume mapping |
 
