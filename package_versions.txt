@@ -24,7 +24,7 @@ libedit-20191231.3.1-r0
 libffi-3.3-r2
 libimagequant-2.12.6-r0
 libintl-0.20.2-r0
-libjpeg-turbo-2.0.5-r0
+libjpeg-turbo-2.1.0-r0
 libldap-2.4.50-r2
 libpng-1.6.37-r1
 libpq-12.6-r0
