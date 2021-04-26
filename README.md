@@ -59,7 +59,7 @@ The architectures supported by this image are:
 
 ## Application Setup
 
-Netbox requires a postgres database.
+Netbox requires a postgres database and a redis instance.
 
 Access the WebUI at <your-ip>:8000. For more information, check out [NetBox](https://github.com/netbox-community/netbox).
 
@@ -81,10 +81,10 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
+      - TZ=<TZ>
       - SUPERUSER_EMAIL=<SUPERUSER_EMAIL>
       - SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD>
       - ALLOWED_HOST=<ALLOWED_HOST>
-      - BASE_PATH=<BASE_PATH>
       - DB_NAME=<DB_NAME>
       - DB_USER=<DB_USER>
       - DB_PASSWORD=<DB_PASSWORD>
@@ -93,13 +93,15 @@ services:
       - REDIS_HOST=<REDIS_HOST>
       - REDIS_PORT=<REDIS_PORT>
       - REDIS_PASSWORD=<REDIS_PASSWORD>
-      - REMOTE_AUTH_ENABLED=<REMOTE_AUTH_ENABLED>
-      - REMOTE_AUTH_BACKEND=<REMOTE_AUTH_BACKEND>
-      - REMOTE_AUTH_HEADER=<REMOTE_AUTH_HEADER>
-      - REMOTE_AUTH_AUTO_CREATE_USER=<REMOTE_AUTH_AUTO_CREATE_USER>
-      - REMOTE_AUTH_DEFAULT_GROUPS=<REMOTE_AUTH_DEFAULT_GROUPS>
-      - REMOTE_AUTH_DEFAULT_PERMISSIONS=<REMOTE_AUTH_DEFAULT_PERMISSIONS>
-      - TZ=<TZ>
+      - REDIS_DB_TASK=<REDIS_DB_TASK>
+      - REDIS_DB_CACHE=<REDIS_DB_CACHE>
+      - BASE_PATH=<BASE_PATH> #optional
+      - REMOTE_AUTH_ENABLED=<REMOTE_AUTH_ENABLED> #optional
+      - REMOTE_AUTH_BACKEND=<REMOTE_AUTH_BACKEND> #optional
+      - REMOTE_AUTH_HEADER=<REMOTE_AUTH_HEADER> #optional
+      - REMOTE_AUTH_AUTO_CREATE_USER=<REMOTE_AUTH_AUTO_CREATE_USER> #optional
+      - REMOTE_AUTH_DEFAULT_GROUPS=<REMOTE_AUTH_DEFAULT_GROUPS> #optional
+      - REMOTE_AUTH_DEFAULT_PERMISSIONS=<REMOTE_AUTH_DEFAULT_PERMISSIONS> #optional
     volumes:
       - <path to data on host>:/config
     ports:
@@ -114,10 +116,10 @@ docker run -d \
   --name=netbox \
   -e PUID=1000 \
   -e PGID=1000 \
+  -e TZ=<TZ> \
   -e SUPERUSER_EMAIL=<SUPERUSER_EMAIL> \
   -e SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD> \
   -e ALLOWED_HOST=<ALLOWED_HOST> \
-  -e BASE_PATH=<BASE_PATH> \
   -e DB_NAME=<DB_NAME> \
   -e DB_USER=<DB_USER> \
   -e DB_PASSWORD=<DB_PASSWORD> \
@@ -126,13 +128,15 @@ docker run -d \
   -e REDIS_HOST=<REDIS_HOST> \
   -e REDIS_PORT=<REDIS_PORT> \
   -e REDIS_PASSWORD=<REDIS_PASSWORD> \
-  -e REMOTE_AUTH_ENABLED=<REMOTE_AUTH_ENABLED> \
-  -e REMOTE_AUTH_BACKEND=<REMOTE_AUTH_BACKEND> \
-  -e REMOTE_AUTH_HEADER=<REMOTE_AUTH_HEADER> \
-  -e REMOTE_AUTH_AUTO_CREATE_USER=<REMOTE_AUTH_AUTO_CREATE_USER> \
-  -e REMOTE_AUTH_DEFAULT_GROUPS=<REMOTE_AUTH_DEFAULT_GROUPS> \
-  -e REMOTE_AUTH_DEFAULT_PERMISSIONS=<REMOTE_AUTH_DEFAULT_PERMISSIONS> \
-  -e TZ=<TZ> \
+  -e REDIS_DB_TASK=<REDIS_DB_TASK> \
+  -e REDIS_DB_CACHE=<REDIS_DB_CACHE> \
+  -e BASE_PATH=<BASE_PATH> `#optional` \
+  -e REMOTE_AUTH_ENABLED=<REMOTE_AUTH_ENABLED> `#optional` \
+  -e REMOTE_AUTH_BACKEND=<REMOTE_AUTH_BACKEND> `#optional` \
+  -e REMOTE_AUTH_HEADER=<REMOTE_AUTH_HEADER> `#optional` \
+  -e REMOTE_AUTH_AUTO_CREATE_USER=<REMOTE_AUTH_AUTO_CREATE_USER> `#optional` \
+  -e REMOTE_AUTH_DEFAULT_GROUPS=<REMOTE_AUTH_DEFAULT_GROUPS> `#optional` \
+  -e REMOTE_AUTH_DEFAULT_PERMISSIONS=<REMOTE_AUTH_DEFAULT_PERMISSIONS> `#optional` \
   -p 8000:8000 \
   -v <path to data on host>:/config \
   --restart unless-stopped \
@@ -148,25 +152,27 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 8000` | will map the container's port 8000 to port 8000 on the host |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
+| `-e TZ=<TZ>` | Timezone (i.e., America/New_York) |
 | `-e SUPERUSER_EMAIL=<SUPERUSER_EMAIL>` | Email address for `admin` account |
 | `-e SUPERUSER_PASSWORD=<SUPERUSER_PASSWORD>` | Password for `admin` account |
 | `-e ALLOWED_HOST=<ALLOWED_HOST>` | The hostname you will use to access the app (i.e., netbox.example.com) |
-| `-e BASE_PATH=<BASE_PATH>` | The path you will use to access the app (i.e., /netbox, optional, default: none) |
-| `-e DB_NAME=<DB_NAME>` | Database name (optional, default: netbox) |
+| `-e DB_NAME=<DB_NAME>` | Database name (default: netbox) |
 | `-e DB_USER=<DB_USER>` | Database user |
 | `-e DB_PASSWORD=<DB_PASSWORD>` | Database password |
-| `-e DB_HOST=<DB_HOST>` | Database host (optional, default: postgres) |
-| `-e DB_PORT=<DB_PORT>` | Database port (optional) |
-| `-e REDIS_HOST=<REDIS_HOST>` | Redis host (optional, default: redis) |
-| `-e REDIS_PORT=<REDIS_PORT>` | Redis port number (optional, default: 6379) |
-| `-e REDIS_PASSWORD=<REDIS_PASSWORD>` | Redis password (optional, default: none) |
+| `-e DB_HOST=<DB_HOST>` | Database host (default: postgres) |
+| `-e DB_PORT=<DB_PORT>` | Database port (defaul: 5432) |
+| `-e REDIS_HOST=<REDIS_HOST>` | Redis host (default: redis) |
+| `-e REDIS_PORT=<REDIS_PORT>` | Redis port number (default: 6379) |
+| `-e REDIS_PASSWORD=<REDIS_PASSWORD>` | Redis password (default: none) |
+| `-e REDIS_DB_TASK=<REDIS_DB_TASK>` | Redis database ID for tasks (default: 0) |
+| `-e REDIS_DB_CACHE=<REDIS_DB_CACHE>` | Redis database ID for caching (default: 1) |
+| `-e BASE_PATH=<BASE_PATH>` | The path you will use to access the app (i.e., /netbox, optional, default: none) |
 | `-e REMOTE_AUTH_ENABLED=<REMOTE_AUTH_ENABLED>` | Enable remote authentication (optional, default: False) |
 | `-e REMOTE_AUTH_BACKEND=<REMOTE_AUTH_BACKEND>` | Python path to the custom Django authentication backend to use for external user authentication (optional, default: netbox.authentication.RemoteUserBackend) |
 | `-e REMOTE_AUTH_HEADER=<REMOTE_AUTH_HEADER>` | Name of the HTTP header which informs NetBox of the currently authenticated user. (optional, default: HTTP_REMOTE_USER) |
 | `-e REMOTE_AUTH_AUTO_CREATE_USER=<REMOTE_AUTH_AUTO_CREATE_USER>` | If true, NetBox will automatically create local accounts for users authenticated via a remote service (optional, default: False) |
 | `-e REMOTE_AUTH_DEFAULT_GROUPS=<REMOTE_AUTH_DEFAULT_GROUPS>` | The list of groups to assign a new user account when created using remote authentication (optional, default: []) |
 | `-e REMOTE_AUTH_DEFAULT_PERMISSIONS=<REMOTE_AUTH_DEFAULT_PERMISSIONS>` | A mapping of permissions to assign a new user account when created using remote authentication (optional, default: {}) |
-| `-e TZ=<TZ>` | Timezone (i.e., America/New_York) |
 | `-v /config` | config directory volume mapping |
 
 ## Environment variables from files (Docker secrets)
@@ -278,6 +284,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **26.04.21:** - Added Redis database environment variables.
 * **03.02.21:** - Added remote authentication environment variables.
 * **02.01.21:** - Added BASE_PATH environment variable.
 * **23.08.20:** - Initial Release.
