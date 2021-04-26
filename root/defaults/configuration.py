@@ -32,7 +32,7 @@ REDIS = {
         # 'SENTINELS': [('mysentinel.redis.example.com', 6379)],
         # 'SENTINEL_SERVICE': 'netbox',
         'PASSWORD': '{{REDIS_PASSWORD}}',
-        'DATABASE': 0,
+        'DATABASE': {{REDIS_DB_TASK}},
         'DEFAULT_TIMEOUT': 300,
         'SSL': False,
     },
@@ -43,7 +43,7 @@ REDIS = {
         # 'SENTINELS': [('mysentinel.redis.example.com', 6379)],
         # 'SENTINEL_SERVICE': 'netbox',
         'PASSWORD': '{{REDIS_PASSWORD}}',
-        'DATABASE': 1,
+        'DATABASE': {{REDIS_DB_CACHE}},
         'DEFAULT_TIMEOUT': 300,
         'SSL': False,
     }
