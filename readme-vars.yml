@@ -21,8 +21,8 @@ param_volumes:
   - { vol_path: "/config", vol_host_path: "<path to data on host>", desc: "config directory volume mapping" }
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "SUPERUSER_EMAIL", env_value: "<SUPERUSER_EMAIL>", desc: "Username for admin account" }
-  - { env_var: "SUPERUSER_PASSWORD", env_value: "<SUPERUSER_PASSWORD>", desc: "Password for admin account" }
+  - { env_var: "SUPERUSER_EMAIL", env_value: "<SUPERUSER_EMAIL>", desc: "Email address for `admin` account" }
+  - { env_var: "SUPERUSER_PASSWORD", env_value: "<SUPERUSER_PASSWORD>", desc: "Password for `admin` account" }
   - { env_var: "ALLOWED_HOST", env_value: "<ALLOWED_HOST>", desc: "The hostname you will use to access the app (i.e., netbox.example.com)" }
   - { env_var: "BASE_PATH", env_value: "<BASE_PATH>", desc: "The path you will use to access the app (i.e., /netbox, optional, default: none)" }
   - { env_var: "DB_NAME", env_value: "<DB_NAME>", desc: "Database name (optional, default: netbox)" }
@@ -48,6 +48,8 @@ param_ports:
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
+  Netbox requires a postgres database.
+  
   Access the WebUI at <your-ip>:8000. For more information, check out [NetBox](https://github.com/netbox-community/netbox).
 
 # changelog
