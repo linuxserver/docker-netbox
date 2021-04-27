@@ -43,7 +43,7 @@ musl-1.1.24-r10
 musl-utils-1.1.24-r10
 ncurses-libs-6.2_p20200523-r0
 ncurses-terminfo-base-6.2_p20200523-r0
-openjpeg-2.4.0-r0
+openjpeg-2.4.0-r1
 pcre-8.44-r0
 postgresql-client-12.6-r0
 procps-3.3.16-r0
