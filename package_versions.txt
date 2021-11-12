@@ -3,7 +3,7 @@ alpine-keys-2.4-r0
 apk-tools-2.10.8-r0
 bash-5.0.17-r0
 brotli-libs-1.0.9-r1
-busybox-1.31.1-r20
+busybox-1.31.1-r21
 ca-certificates-20191127-r4
 ca-certificates-bundle-20191127-r4
 coreutils-8.32-r0
@@ -60,7 +60,7 @@ readline-8.0.4-r0
 scanelf-1.2.6-r0
 shadow-4.8.1-r0
 sqlite-libs-3.32.1-r1
-ssl_client-1.31.1-r20
+ssl_client-1.31.1-r21
 tiff-4.1.0-r0
 tzdata-2021e-r0
 uwsgi-2.0.18-r8
