@@ -34,7 +34,7 @@ REDIS = {
         'PASSWORD': '{{REDIS_PASSWORD}}',
         'DATABASE': {{REDIS_DB_TASK}},
         'SSL': False,
-                # Set this to True to skip TLS certificate verification
+        # Set this to True to skip TLS certificate verification
         # This can expose the connection to attacks, be careful
         # 'INSECURE_SKIP_TLS_VERIFY': False,
     },
