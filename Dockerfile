@@ -60,3 +60,5 @@ COPY root/ /
 
 # ports and volumes
 EXPOSE 8000
+
+VOLUME /config
