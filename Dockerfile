@@ -47,7 +47,6 @@ RUN \
   python3 -m ensurepip && \
   rm -rf /usr/lib/python*/ensurepip && \
   cd /app/netbox && \
-  /usr/bin/python3 -m pip install --upgrade pip \
   pip3 install --no-cache-dir wheel && \
   pip3 install --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine/ -r requirements.txt && \
   echo "**** cleanup ****" && \
