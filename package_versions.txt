@@ -18,7 +18,7 @@ libbsd-0.11.3-r1
 libbz2-1.0.8-r1
 libc-utils-0.7.2-r3
 libcap-2.61-r0
-libcrypto1.1-1.1.1l-r8
+libcrypto1.1-1.1.1n-r0
 libffi-3.4.2-r1
 libgcc-10.3.1_git20211027-r0
 libimagequant-2.16.0-r0
@@ -28,8 +28,8 @@ libmd-1.0.3-r0
 libpng-1.6.37-r1
 libpq-14.2-r0
 libproc-3.3.17-r0
-libretls-3.3.4-r2
-libssl1.1-1.1.1l-r8
+libretls-3.3.4-r3
+libssl1.1-1.1.1n-r0
 libstdc++-10.3.1_git20211027-r0
 libwebp-1.2.2-r0
 libxau-1.0.9-r0
