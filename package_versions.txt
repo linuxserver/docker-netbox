@@ -8,7 +8,7 @@ ca-certificates-20211220-r0
 ca-certificates-bundle-20211220-r0
 coreutils-9.0-r2
 expat-2.4.7-r0
-freetype-2.11.0-r0
+freetype-2.11.1-r0
 gdbm-1.22-r0
 jansson-2.14-r0
 lcms2-2.12-r1
@@ -71,5 +71,5 @@ uwsgi-2.0.19.1-r2
 uwsgi-python3-2.0.19.1-r2
 xz-5.2.5-r0
 xz-libs-5.2.5-r0
-zlib-1.2.11-r3
+zlib-1.2.12-r0
 zstd-libs-1.5.0-r0
