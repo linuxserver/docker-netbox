@@ -26,7 +26,6 @@ RUN \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
     postgresql-client \
-    py3-pillow \
     py3-setuptools \
     python3 \
     uwsgi \
