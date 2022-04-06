@@ -47,7 +47,7 @@ RUN \
   rm -rf /usr/lib/python*/ensurepip && \
   cd /app/netbox && \
   pip3 install --no-cache-dir -U pip wheel && \
-  pip3 install --no-cache-dir --ignore-installed --find-links https://wheel-index.linuxserver.io/alpine/ -r requirements.txt && \
+  pip3 install --no-cache-dir --ignore-installed --find-links https://wheel-index.linuxserver.io/alpine-3.15/ -r requirements.txt && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
