@@ -32,7 +32,7 @@ musl-utils-1.2.2-r7
 ncurses-libs-6.3_p20211120-r0
 ncurses-terminfo-base-6.3_p20211120-r0
 pcre-8.45-r1
-postgresql-common-1.0-r1
+postgresql-common-1.1-r0
 postgresql14-client-14.3-r0
 procps-3.3.17-r0
 py3-appdirs-1.4.4-r2
