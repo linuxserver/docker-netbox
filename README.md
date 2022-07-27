@@ -283,6 +283,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **26.07.22:** - Add py3-pillow package back on arm to fix build issue.
 * **10.12.21:** - Remove py3-pillow package to fix dependency issue with 3.2.0.
 * **10.12.21:** - Rebase to Alpine 3.15.
 * **26.04.21:** - Added Redis database environment variables.
