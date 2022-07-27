@@ -45,7 +45,7 @@ py3-packaging-20.9-r1
 py3-parsing-2.4.7-r2
 py3-setuptools-52.0.0-r4
 py3-six-1.16.0-r0
-python3-3.9.7-r4
+python3-3.9.13-r1
 readline-8.1.1-r0
 s6-ipcserver-2.11.0.0-r0
 scanelf-1.3.3-r0
