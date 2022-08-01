@@ -25,6 +25,7 @@ RUN \
     zlib-dev && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
+    tiff \
     postgresql-client \
     py3-setuptools \
     python3 \
