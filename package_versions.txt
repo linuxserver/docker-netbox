@@ -22,7 +22,7 @@ libffi-3.4.2-r1
 libgcc-10.3.1_git20211027-r0
 libintl-0.21-r0
 libjpeg-turbo-2.1.2-r0
-libpq-14.4-r0
+libpq-14.5-r0
 libproc-3.3.17-r0
 libretls-3.3.4-r3
 libssl1.1-1.1.1q-r0
@@ -39,7 +39,7 @@ ncurses-terminfo-base-6.3_p20211120-r1
 nghttp2-libs-1.46.0-r0
 pcre-8.45-r1
 postgresql-common-1.1-r0
-postgresql14-client-14.4-r0
+postgresql14-client-14.5-r0
 procps-3.3.17-r0
 py3-appdirs-1.4.4-r2
 py3-ordered-set-4.0.2-r2
