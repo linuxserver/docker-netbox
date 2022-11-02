@@ -1,6 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-cd /app/netbox/netbox || exit
-
-exec \
-	s6-setuidgid abc /usr/sbin/uwsgi uwsgi.ini
