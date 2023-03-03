@@ -1,69 +1,185 @@
-alpine-baselayout-3.2.0-r23
-alpine-baselayout-data-3.2.0-r23
-alpine-keys-2.4-r1
-apk-tools-2.12.9-r3
-bash-5.1.16-r2
-brotli-libs-1.0.9-r6
-busybox-1.35.0-r17
-ca-certificates-20220614-r0
-ca-certificates-bundle-20220614-r0
-coreutils-9.1-r0
-curl-7.83.1-r6
-expat-2.5.0-r0
-gdbm-1.23-r0
-gmp-6.2.1-r2
-jansson-2.14-r0
-jq-1.6-r1
-libacl-2.3.1-r0
-libattr-2.5.1-r1
-libbz2-1.0.8-r1
-libc-utils-0.7.2-r3
-libcap-2.64-r0
-libcrypto1.1-1.1.1t-r0
-libcurl-7.83.1-r6
-libffi-3.4.2-r1
-libgcc-11.2.1_git20220219-r2
-libintl-0.21-r2
-libjpeg-turbo-2.1.3-r1
-libpq-14.7-r0
-libproc-3.3.17-r1
-libssl1.1-1.1.1t-r0
-libstdc++-11.2.1_git20220219-r2
-libwebp-1.2.3-r0
-libxml2-2.9.14-r2
-linux-pam-1.5.2-r0
-mailcap-2.1.53-r0
-mpdecimal-2.5.1-r1
-musl-1.2.3-r2
-musl-utils-1.2.3-r2
-ncurses-libs-6.3_p20220521-r0
-ncurses-terminfo-base-6.3_p20220521-r0
-nghttp2-libs-1.47.0-r0
-oniguruma-6.9.8-r0
-pcre-8.45-r2
-postgresql-common-1.1-r3
-postgresql14-client-14.7-r0
-procps-3.3.17-r1
-py3-appdirs-1.4.4-r3
-py3-more-itertools-8.13.0-r0
-py3-ordered-set-4.0.2-r3
-py3-packaging-21.3-r0
-py3-parsing-2.4.7-r3
-py3-setuptools-59.4.0-r0
-py3-six-1.16.0-r1
-python3-3.10.10-r0
-readline-8.1.2-r0
-scanelf-1.3.4-r0
-shadow-4.10-r3
-skalibs-2.11.2.0-r0
-sqlite-libs-3.38.5-r0
-ssl_client-1.35.0-r17
-tiff-4.4.0-r0
-tzdata-2022f-r1
-utmps-libs-0.1.2.0-r0
-uwsgi-2.0.20-r0
-uwsgi-python3-2.0.20-r0
-xz-5.2.5-r1
-xz-libs-5.2.5-r1
-zlib-1.2.12-r3
-zstd-libs-1.5.2-r1
+NAME                           VERSION                TYPE   
+Django                         4.1.7                  python  
+Jinja2                         3.1.2                  python  
+Markdown                       3.3.7                  python  
+MarkupSafe                     2.1.2                  python  
+Pillow                         9.4.0                  python  
+PyJWT                          2.6.0                  python  
+PyYAML                         6.0                    python  
+Pygments                       2.14.0                 python  
+alpine-baselayout              3.2.0-r23              apk     
+alpine-baselayout-data         3.2.0-r23              apk     
+alpine-keys                    2.4-r1                 apk     
+aniso8601                      9.0.1                  python  
+apk-tools                      2.12.9-r3              apk     
+appdirs                        1.4.4                  python  
+asgiref                        3.6.0                  python  
+async-timeout                  4.0.2                  python  
+attrs                          22.2.0                 python  
+bash                           5.1.16-r2              apk     
+bleach                         5.0.1                  python  
+brotli-libs                    1.0.9-r6               apk     
+busybox                        1.35.0                 binary  
+busybox                        1.35.0-r17             apk     
+ca-certificates                20220614-r0            apk     
+ca-certificates-bundle         20220614-r0            apk     
+certifi                        2022.12.7              python  
+cffi                           1.15.1                 python  
+charset-normalizer             3.0.1                  python  
+click                          8.1.3                  python  
+colorama                       0.4.6                  python  
+coreapi                        2.3.3                  python  
+coreschema                     0.0.4                  python  
+coreutils                      9.1-r0                 apk     
+cryptography                   39.0.2                 python  
+curl                           7.83.1-r6              apk     
+defusedxml                     0.7.1                  python  
+django-cors-headers            3.13.0                 python  
+django-filter                  22.1                   python  
+django-graphiql-debug-toolbar  0.2.0                  python  
+django-js-asset                2.0.0                  python  
+django-mptt                    0.14.0                 python  
+django-pglocks                 1.0.4                  python  
+django-prometheus              2.2.0                  python  
+django-redis                   5.2.0                  python  
+django-rich                    1.4.0                  python  
+django-rq                      2.7.0                  python  
+django-tables2                 2.5.2                  python  
+django-taggit                  3.1.0                  python  
+django-timezone-field          5.0                    python  
+django_debug_toolbar           3.8.1                  python  
+djangorestframework            3.14.0                 python  
+drf-yasg                       1.21.5                 python  
+ecdsa                          0.18.0                 python  
+expat                          2.5.0-r0               apk     
+gdbm                           1.23-r0                apk     
+ghp-import                     2.1.0                  python  
+gmp                            6.2.1-r2               apk     
+graphene                       3.2.1                  python  
+graphene-django                3.0.0                  python  
+graphql-core                   3.2.3                  python  
+graphql-relay                  3.2.0                  python  
+gunicorn                       20.1.0                 python  
+html5lib                       1.1                    python  
+idna                           3.4                    python  
+inflection                     0.5.1                  python  
+itypes                         1.2.0                  python  
+jansson                        2.14-r0                apk     
+jq                             1.6-r1                 apk     
+jsonschema                     3.2.0                  python  
+libacl                         2.3.1-r0               apk     
+libattr                        2.5.1-r1               apk     
+libbsd                         0.11.6-r2              apk     
+libbz2                         1.0.8-r1               apk     
+libc-utils                     0.7.2-r3               apk     
+libcap                         2.64-r0                apk     
+libcrypto1.1                   1.1.1t-r0              apk     
+libcurl                        7.83.1-r6              apk     
+libffi                         3.4.2-r1               apk     
+libgcc                         11.2.1_git20220219-r2  apk     
+libintl                        0.21-r2                apk     
+libjpeg-turbo                  2.1.3-r1               apk     
+libmd                          1.0.4-r0               apk     
+libpq                          14.7-r0                apk     
+libproc                        3.3.17-r1              apk     
+libssl1.1                      1.1.1t-r0              apk     
+libstdc++                      11.2.1_git20220219-r2  apk     
+libwebp                        1.2.3-r0               apk     
+libxml2                        2.9.14-r2              apk     
+linux-pam                      1.5.2-r0               apk     
+mailcap                        2.1.53-r0              apk     
+markdown-it-py                 2.2.0                  python  
+mdurl                          0.1.2                  python  
+mergedeep                      1.3.4                  python  
+mkdocs                         1.4.2                  python  
+mkdocs-autorefs                0.4.1                  python  
+mkdocs-material                9.0.13                 python  
+mkdocs-material-extensions     1.1.1                  python  
+mkdocstrings                   0.20.0                 python  
+mkdocstrings-python-legacy     0.2.3                  python  
+more-itertools                 8.13.0                 python  
+mpdecimal                      2.5.1-r1               apk     
+musl                           1.2.3-r2               apk     
+musl-utils                     1.2.3-r2               apk     
+ncurses-libs                   6.3_p20220521-r0       apk     
+ncurses-terminfo-base          6.3_p20220521-r0       apk     
+netaddr                        0.8.0                  python  
+netbox                         0.1.0                  npm     
+netbox-graphiql                0.1.0                  npm     
+netcat-openbsd                 1.130-r3               apk     
+nghttp2-libs                   1.47.0-r0              apk     
+oauthlib                       3.2.2                  python  
+oniguruma                      6.9.8-r0               apk     
+ordered-set                    4.0.2                  python  
+packaging                      21.3                   python  
+packaging                      23.0                   python  
+pcre                           8.45-r2                apk     
+pip                            23.0.1                 python  
+postgresql-common              1.1-r3                 apk     
+postgresql14-client            14.7-r0                apk     
+procps                         3.3.17-r1              apk     
+prometheus-client              0.16.0                 python  
+promise                        2.3                    python  
+psycopg2-binary                2.9.5                  python  
+py3-appdirs                    1.4.4-r3               apk     
+py3-more-itertools             8.13.0-r0              apk     
+py3-ordered-set                4.0.2-r3               apk     
+py3-packaging                  21.3-r0                apk     
+py3-parsing                    2.4.7-r3               apk     
+py3-setuptools                 59.4.0-r0              apk     
+py3-six                        1.16.0-r1              apk     
+pyasn1                         0.4.8                  python  
+pycparser                      2.21                   python  
+pymdown-extensions             9.9.2                  python  
+pyparsing                      2.4.7                  python  
+pyrsistent                     0.19.3                 python  
+python                         3.10.10                binary  
+python-dateutil                2.8.2                  python  
+python-jose                    3.3.0                  python  
+python3                        3.10.10-r0             apk     
+python3-openid                 3.2.0                  python  
+pytkdocs                       0.16.1                 python  
+pytz                           2022.7.1               python  
+pyyaml_env_tag                 0.1                    python  
+readline                       8.1.2-r0               apk     
+redis                          4.5.1                  python  
+regex                          2022.10.31             python  
+requests                       2.28.2                 python  
+requests-oauthlib              1.3.1                  python  
+rich                           13.3.1                 python  
+rq                             1.13.0                 python  
+rsa                            4.9                    python  
+ruamel.yaml                    0.17.21                python  
+ruamel.yaml.clib               0.2.7                  python  
+scanelf                        1.3.4-r0               apk     
+sentry-sdk                     1.15.0                 python  
+setuptools                     59.4.0                 python  
+setuptools                     67.4.0                 python  
+shadow                         4.10-r3                apk     
+six                            1.16.0                 python  
+skalibs                        2.11.2.0-r0            apk     
+social-auth-app-django         5.0.0                  python  
+social-auth-core               4.3.0                  python  
+sqlite-libs                    3.38.5-r0              apk     
+sqlparse                       0.4.3                  python  
+ssl_client                     1.35.0-r17             apk     
+svgwrite                       1.4.3                  python  
+swagger-spec-validator         3.0.3                  python  
+tablib                         3.3.0                  python  
+text-unidecode                 1.3                    python  
+tiff                           4.4.0-r0               apk     
+typing_extensions              4.5.0                  python  
+tzdata                         2022.7                 python  
+tzdata                         2022f-r1               apk     
+uritemplate                    4.1.1                  python  
+urllib3                        1.26.14                python  
+utmps-libs                     0.1.2.0-r0             apk     
+uwsgi                          2.0.20-r0              apk     
+uwsgi-python3                  2.0.20-r0              apk     
+watchdog                       2.3.1                  python  
+webencodings                   0.5.1                  python  
+wheel                          0.38.4                 python  
+xz                             5.2.5-r1               apk     
+xz-libs                        5.2.5-r1               apk     
+zlib                           1.2.12-r3              apk     
+zstd-libs                      1.5.2-r1               apk     
