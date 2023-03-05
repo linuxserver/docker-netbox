@@ -1,4 +1,6 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.16
+# syntax=docker/dockerfile:1
+
+FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.17
 
 # set version label
 ARG BUILD_DATE
@@ -10,14 +12,12 @@ LABEL maintainer="alex-phillips"
 RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --upgrade --virtual=build-dependencies \
+    build-base \
     cargo \
-    gcc \
-    git \
     jpeg-dev \
     libffi-dev \
     libxslt-dev \
     libxml2-dev \
-    musl-dev \
     openssl-dev \
     postgresql-dev \
     python3-dev \
@@ -26,7 +26,6 @@ RUN \
   apk add --no-cache --upgrade \
     tiff \  
     postgresql-client \
-    py3-setuptools \
     python3 \
     uwsgi \
     uwsgi-python && \
@@ -43,11 +42,12 @@ RUN \
   /tmp/netbox.tar.gz -C \
     /app/netbox/ --strip-components=1 && \
     echo "**** install pip packages ****" && \
-  python3 -m ensurepip && \
-  rm -rf /usr/lib/python*/ensurepip && \
   cd /app/netbox && \
-  pip3 install --no-cache-dir -U pip wheel && \
-  pip3 install --no-cache-dir --ignore-installed --find-links https://wheel-index.linuxserver.io/alpine-3.16/ -r requirements.txt && \
+  python3 -m ensurepip --upgrade && \
+  pip3 install -U --no-cache-dir \
+    pip \
+    wheel && \
+  pip3 install --no-cache-dir --ignore-installed --find-links https://wheel-index.linuxserver.io/alpine-3.17/ -r requirements.txt && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \

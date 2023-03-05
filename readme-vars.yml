@@ -18,33 +18,33 @@ available_architectures:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "<path to data on host>", desc: "config directory volume mapping" }
+  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "config directory volume mapping" }
 param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "<TZ>", desc: "Timezone (i.e., America/New_York)" }
-  - { env_var: "SUPERUSER_EMAIL", env_value: "<SUPERUSER_EMAIL>", desc: "Email address for `admin` account" }
-  - { env_var: "SUPERUSER_PASSWORD", env_value: "<SUPERUSER_PASSWORD>", desc: "Password for `admin` account" }
-  - { env_var: "ALLOWED_HOST", env_value: "<ALLOWED_HOST>", desc: "The hostname you will use to access the app (i.e., netbox.example.com)" }
-  - { env_var: "DB_NAME", env_value: "<DB_NAME>", desc: "Database name (default: netbox)" }
-  - { env_var: "DB_USER", env_value: "<DB_USER>", desc: "Database user" }
-  - { env_var: "DB_PASSWORD", env_value: "<DB_PASSWORD>", desc: "Database password" }
-  - { env_var: "DB_HOST", env_value: "<DB_HOST>", desc: "Database host (default: postgres)" }
-  - { env_var: "DB_PORT", env_value: "<DB_PORT>", desc: "Database port (defaul: 5432)" }
-  - { env_var: "REDIS_HOST", env_value: "<REDIS_HOST>", desc: "Redis host (default: redis)" }
-  - { env_var: "REDIS_PORT", env_value: "<REDIS_PORT>", desc: "Redis port number (default: 6379)" }
-  - { env_var: "REDIS_PASSWORD", env_value: "<REDIS_PASSWORD>", desc: "Redis password (default: none)" }
-  - { env_var: "REDIS_DB_TASK", env_value: "<REDIS_DB_TASK>", desc: "Redis database ID for tasks (default: 0)" }
-  - { env_var: "REDIS_DB_CACHE", env_value: "<REDIS_DB_CACHE>", desc: "Redis database ID for caching (default: 1)" }
+  - { env_var: "SUPERUSER_EMAIL", env_value: "", desc: "Email address for `admin` account" }
+  - { env_var: "SUPERUSER_PASSWORD", env_value: "", desc: "Password for `admin` account" }
+  - { env_var: "ALLOWED_HOST", env_value: "", desc: "The hostname you will use to access the app (i.e., netbox.example.com)" }
+  - { env_var: "DB_NAME", env_value: "", desc: "Database name (default: netbox)" }
+  - { env_var: "DB_USER", env_value: "", desc: "Database user" }
+  - { env_var: "DB_PASSWORD", env_value: "", desc: "Database password" }
+  - { env_var: "DB_HOST", env_value: "", desc: "Database host (default: postgres)" }
+  - { env_var: "DB_PORT", env_value: "", desc: "Database port (defaul: 5432)" }
+  - { env_var: "REDIS_HOST", env_value: "", desc: "Redis host (default: redis)" }
+  - { env_var: "REDIS_PORT", env_value: "", desc: "Redis port number (default: 6379)" }
+  - { env_var: "REDIS_PASSWORD", env_value: "", desc: "Redis password (default: none)" }
+  - { env_var: "REDIS_DB_TASK", env_value: "", desc: "Redis database ID for tasks (default: 0)" }
+  - { env_var: "REDIS_DB_CACHE", env_value: "", desc: "Redis database ID for caching (default: 1)" }
 
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - { env_var: "BASE_PATH", env_value: "<BASE_PATH>", desc: "The path you will use to access the app (i.e., /netbox, optional, default: none)" }
-  - { env_var: "REMOTE_AUTH_ENABLED", env_value: "<REMOTE_AUTH_ENABLED>", desc: "Enable remote authentication (optional, default: False)" }
-  - { env_var: "REMOTE_AUTH_BACKEND", env_value: "<REMOTE_AUTH_BACKEND>", desc: "Python path to the custom Django authentication backend to use for external user authentication (optional, default: netbox.authentication.RemoteUserBackend)" }
-  - { env_var: "REMOTE_AUTH_HEADER", env_value: "<REMOTE_AUTH_HEADER>", desc: "Name of the HTTP header which informs NetBox of the currently authenticated user. (optional, default: HTTP_REMOTE_USER)" }
-  - { env_var: "REMOTE_AUTH_AUTO_CREATE_USER", env_value: "<REMOTE_AUTH_AUTO_CREATE_USER>", desc: "If true, NetBox will automatically create local accounts for users authenticated via a remote service (optional, default: False)" }
-  - { env_var: "REMOTE_AUTH_DEFAULT_GROUPS", env_value: "<REMOTE_AUTH_DEFAULT_GROUPS>", desc: "The list of groups to assign a new user account when created using remote authentication (optional, default: [])" }
-  - { env_var: "REMOTE_AUTH_DEFAULT_PERMISSIONS", env_value: "<REMOTE_AUTH_DEFAULT_PERMISSIONS>", desc: "A mapping of permissions to assign a new user account when created using remote authentication (optional, default: {})" }
+  - { env_var: "BASE_PATH", env_value: "", desc: "The path you will use to access the app (i.e., /netbox, optional, default: none)" }
+  - { env_var: "REMOTE_AUTH_ENABLED", env_value: "", desc: "Enable remote authentication (optional, default: False)" }
+  - { env_var: "REMOTE_AUTH_BACKEND", env_value: "", desc: "Python path to the custom Django authentication backend to use for external user authentication (optional, default: netbox.authentication.RemoteUserBackend)" }
+  - { env_var: "REMOTE_AUTH_HEADER", env_value: "", desc: "Name of the HTTP header which informs NetBox of the currently authenticated user. (optional, default: HTTP_REMOTE_USER)" }
+  - { env_var: "REMOTE_AUTH_AUTO_CREATE_USER", env_value: "", desc: "If true, NetBox will automatically create local accounts for users authenticated via a remote service (optional, default: False)" }
+  - { env_var: "REMOTE_AUTH_DEFAULT_GROUPS", env_value: "", desc: "The list of groups to assign a new user account when created using remote authentication (optional, default: [])" }
+  - { env_var: "REMOTE_AUTH_DEFAULT_PERMISSIONS", env_value: "", desc: "A mapping of permissions to assign a new user account when created using remote authentication (optional, default: {})" }
 
 param_usage_include_ports: true
 param_ports:
@@ -59,6 +59,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "05.03.23:", desc: "Rebase to Alpine 3.17." }
   - { date: "02.11.22:", desc: "Rebase to Alpine 3.16, migrate to s6v3." }
   - { date: "01.08.22:", desc: "Remove py3-pillow, add tiff to fix deps." }
   - { date: "26.07.22:", desc: "Add py3-pillow package back on arm to fix build issue." }
