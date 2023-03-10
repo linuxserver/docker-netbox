@@ -1,6 +1,9 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
-mkdir -p /config/scripts
+mkdir -p \
+    /app/netbox/netbox/static \
+    /config/scripts
 
 declare -A NETBOX_CONF
 NETBOX_CONF[ALLOWED_HOST]=${ALLOWED_HOST:-netbox.example.com}
@@ -22,9 +25,9 @@ NETBOX_CONF[REMOTE_AUTH_AUTO_CREATE_USER]=${REMOTE_AUTH_AUTO_CREATE_USER:-False}
 NETBOX_CONF[REMOTE_AUTH_DEFAULT_GROUPS]=${REMOTE_AUTH_DEFAULT_GROUPS:-[]}
 NETBOX_CONF[REMOTE_AUTH_DEFAULT_PERMISSIONS]=${REMOTE_AUTH_DEFAULT_PERMISSIONS:-{}}
 
-cd /app/netbox/netbox/netbox || exit 1
+cd /app/netbox/netbox || exit 1
 
-NETBOX_CONF[SECRET_KEY]=${SECRET_KEY:-$(python3 ../generate_secret_key.py)}
+NETBOX_CONF[SECRET_KEY]=${SECRET_KEY:-$(python3 ./generate_secret_key.py)}
 
 if [[ ! -f "/config/configuration.py" ]]; then
     cp /defaults/configuration.py /config/configuration.py
@@ -47,16 +50,13 @@ ln -sf /config/configuration.py /app/netbox/netbox/netbox/configuration.py
 mv /defaults/uwsgi.ini /app/netbox/netbox/uwsgi.ini > /dev/null 2>&1
 
 # permissions
-chown -R abc:abc \
-    /app/netbox \
+lsiown -R abc:abc \
+    /app/netbox/netbox/static \
     /config
 
-cd /app/netbox || exit
+s6-setuidgid abc /usr/bin/python3 ./manage.py migrate
 
-s6-setuidgid abc /usr/bin/python3 netbox/manage.py migrate
-
-if [[ -n "$SUPERUSER_EMAIL" ]] && [[ -n "$SUPERUSER_PASSWORD" ]];
-then
+if [[ -n "$SUPERUSER_EMAIL" ]] && [[ -n "$SUPERUSER_PASSWORD" ]]; then
 cat << EOF | s6-setuidgid abc python3 /app/netbox/netbox/manage.py shell
 from django.contrib.auth.models import User;
 
