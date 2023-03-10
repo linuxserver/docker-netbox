@@ -25,7 +25,7 @@ ca-certificates                20220614-r0            apk
 ca-certificates-bundle         20220614-r0            apk     
 certifi                        2022.12.7              python  
 cffi                           1.15.1                 python  
-charset-normalizer             3.0.1                  python  
+charset-normalizer             3.1.0                  python  
 click                          8.1.3                  python  
 colorama                       0.4.6                  python  
 coreapi                        2.3.3                  python  
@@ -130,7 +130,7 @@ py3-setuptools                 59.4.0-r0              apk
 py3-six                        1.16.0-r1              apk     
 pyasn1                         0.4.8                  python  
 pycparser                      2.21                   python  
-pymdown-extensions             9.9.2                  python  
+pymdown-extensions             9.10                   python  
 pyparsing                      2.4.7                  python  
 pyrsistent                     0.19.3                 python  
 python                         3.10.10                binary  
@@ -146,7 +146,7 @@ redis                          4.5.1                  python
 regex                          2022.10.31             python  
 requests                       2.28.2                 python  
 requests-oauthlib              1.3.1                  python  
-rich                           13.3.1                 python  
+rich                           13.3.2                 python  
 rq                             1.13.0                 python  
 rsa                            4.9                    python  
 ruamel.yaml                    0.17.21                python  
@@ -154,7 +154,7 @@ ruamel.yaml.clib               0.2.7                  python
 scanelf                        1.3.4-r0               apk     
 sentry-sdk                     1.15.0                 python  
 setuptools                     59.4.0                 python  
-setuptools                     67.4.0                 python  
+setuptools                     67.6.0                 python  
 shadow                         4.10-r3                apk     
 six                            1.16.0                 python  
 skalibs                        2.11.2.0-r0            apk     
