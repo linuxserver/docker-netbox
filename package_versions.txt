@@ -35,7 +35,7 @@ coreutils                      9.1-r0                 apk
 cryptography                   39.0.2                 python  
 curl                           7.88.1-r0              apk     
 defusedxml                     0.7.1                  python  
-django-cors-headers            3.13.0                 python  
+django-cors-headers            3.14.0                 python  
 django-filter                  22.1                   python  
 django-graphiql-debug-toolbar  0.2.0                  python  
 django-js-asset                2.0.0                  python  
@@ -43,9 +43,9 @@ django-mptt                    0.14.0                 python
 django-pglocks                 1.0.4                  python  
 django-prometheus              2.2.0                  python  
 django-redis                   5.2.0                  python  
-django-rich                    1.4.0                  python  
+django-rich                    1.5.0                  python  
 django-rq                      2.7.0                  python  
-django-tables2                 2.5.2                  python  
+django-tables2                 2.5.3                  python  
 django-taggit                  3.1.0                  python  
 django-timezone-field          5.0                    python  
 django_debug_toolbar           3.8.1                  python  
@@ -94,7 +94,7 @@ mdurl                          0.1.2                  python
 mergedeep                      1.3.4                  python  
 mkdocs                         1.4.2                  python  
 mkdocs-autorefs                0.4.1                  python  
-mkdocs-material                9.0.13                 python  
+mkdocs-material                9.1.2                  python  
 mkdocs-material-extensions     1.1.1                  python  
 mkdocstrings                   0.20.0                 python  
 mkdocstrings-python-legacy     0.2.3                  python  
@@ -142,7 +142,7 @@ rsa                            4.9                    python
 ruamel.yaml                    0.17.21                python  
 ruamel.yaml.clib               0.2.7                  python  
 scanelf                        1.3.5-r1               apk     
-sentry-sdk                     1.15.0                 python  
+sentry-sdk                     1.16.0                 python  
 setuptools                     65.5.0                 python  
 setuptools                     67.6.0                 python  
 shadow                         4.13-r0                apk     
@@ -162,7 +162,7 @@ typing_extensions              4.5.0                  python
 tzdata                         2022.7                 python  
 tzdata                         2022f-r1               apk     
 uritemplate                    4.1.1                  python  
-urllib3                        1.26.14                python  
+urllib3                        1.26.15                python  
 utmps-libs                     0.1.2.0-r1             apk     
 uwsgi                          2.0.21-r0              apk     
 uwsgi-python3                  2.0.21-r0              apk     
