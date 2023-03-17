@@ -54,7 +54,7 @@ drf-yasg                       1.21.5                 python
 ecdsa                          0.18.0                 python  
 gdbm                           1.23-r0                apk     
 ghp-import                     2.1.0                  python  
-graphene                       3.2.1                  python  
+graphene                       3.2.2                  python  
 graphene-django                3.0.0                  python  
 graphql-core                   3.2.3                  python  
 graphql-relay                  3.2.0                  python  
@@ -168,7 +168,7 @@ uwsgi                          2.0.21-r0              apk
 uwsgi-python3                  2.0.21-r0              apk     
 watchdog                       2.3.1                  python  
 webencodings                   0.5.1                  python  
-wheel                          0.38.4                 python  
+wheel                          0.40.0                 python  
 xz                             5.2.9-r0               apk     
 xz-libs                        5.2.9-r0               apk     
 zlib                           1.2.13-r0              apk     
