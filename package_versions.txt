@@ -136,7 +136,7 @@ redis                          4.5.4                  python
 regex                          2023.3.23              python  
 requests                       2.29.0                 python  
 requests-oauthlib              1.3.1                  python  
-rich                           13.3.4                 python  
+rich                           13.3.5                 python  
 rq                             1.13.0                 python  
 rsa                            4.9                    python  
 ruamel.yaml                    0.17.21                python  
