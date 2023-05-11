@@ -4,7 +4,7 @@ Jinja2                         3.1.2                  python
 Markdown                       3.3.7                  python  
 MarkupSafe                     2.1.2                  python  
 Pillow                         9.5.0                  python  
-PyJWT                          2.6.0                  python  
+PyJWT                          2.7.0                  python  
 PyYAML                         6.0                    python  
 Pygments                       2.15.1                 python  
 alpine-baselayout              3.4.0-r0               apk     
@@ -19,14 +19,14 @@ attrs                          23.1.0                 python
 bash                           5.2.15-r0              apk     
 bleach                         6.0.0                  python  
 boto3                          1.26.127               python  
-botocore                       1.29.127               python  
+botocore                       1.29.132               python  
 brotli-libs                    1.0.9-r9               apk     
 busybox                        1.35.0                 binary  
 busybox                        1.35.0-r29             apk     
 busybox-binsh                  1.35.0-r29             apk     
-ca-certificates                20220614-r4            apk     
-ca-certificates-bundle         20220614-r4            apk     
-certifi                        2022.12.7              python  
+ca-certificates                20230506-r0            apk     
+ca-certificates-bundle         20230506-r0            apk     
+certifi                        2023.5.7               python  
 cffi                           1.15.1                 python  
 charset-normalizer             3.1.0                  python  
 click                          8.1.3                  python  
@@ -135,7 +135,7 @@ pytkdocs                       0.16.1                 python
 pytz                           2023.3                 python  
 pyyaml_env_tag                 0.1                    python  
 readline                       8.2.0-r0               apk     
-redis                          4.5.4                  python  
+redis                          4.5.5                  python  
 regex                          2023.5.5               python  
 requests                       2.30.0                 python  
 requests-oauthlib              1.3.1                  python  
