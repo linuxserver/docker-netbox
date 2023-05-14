@@ -49,6 +49,14 @@ ln -sf /config/configuration.py /app/netbox/netbox/netbox/configuration.py
 
 mv /defaults/uwsgi.ini /app/netbox/netbox/uwsgi.ini > /dev/null 2>&1
 
+# build docs
+if [[ ! -e "/app/netbox/netbox/project-static/docs/index.html" ]]; then
+    cd /app/netbox || exit 1
+    echo "Building local documentation"
+    mkdocs build
+    cd /app/netbox/netbox || exit 1
+fi
+
 # permissions
 lsiown -R abc:abc \
     /app/netbox/netbox/static \
