@@ -19,7 +19,7 @@ attrs                          23.1.0                 python
 bash                           5.2.15-r0              apk     
 bleach                         6.0.0                  python  
 boto3                          1.26.127               python  
-botocore                       1.29.132               python  
+botocore                       1.29.133               python  
 brotli-libs                    1.0.9-r9               apk     
 busybox                        1.35.0                 binary  
 busybox                        1.35.0-r29             apk     
@@ -83,7 +83,7 @@ libgcc                         12.2.1_git20220924-r4  apk
 libintl                        0.21.1-r1              apk     
 libjpeg-turbo                  2.1.4-r0               apk     
 libmd                          1.0.4-r0               apk     
-libpq                          15.2-r0                apk     
+libpq                          15.3-r0                apk     
 libproc                        3.3.17-r2              apk     
 libssl3                        3.0.8-r4               apk     
 libstdc++                      12.2.1_git20220924-r4  apk     
@@ -117,7 +117,7 @@ packaging                      23.1                   python
 pcre                           8.45-r2                apk     
 pip                            23.1.2                 python  
 postgresql-common              1.1-r3                 apk     
-postgresql15-client            15.2-r0                apk     
+postgresql15-client            15.3-r0                apk     
 procps                         3.3.17-r2              apk     
 prometheus-client              0.16.0                 python  
 promise                        2.3                    python  
