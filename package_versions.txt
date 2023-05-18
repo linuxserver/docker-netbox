@@ -19,7 +19,7 @@ attrs                          23.1.0                 python
 bash                           5.2.15-r0              apk     
 bleach                         6.0.0                  python  
 boto3                          1.26.127               python  
-botocore                       1.29.133               python  
+botocore                       1.29.135               python  
 brotli-libs                    1.0.9-r9               apk     
 busybox                        1.35.0                 binary  
 busybox                        1.35.0-r29             apk     
@@ -74,9 +74,9 @@ libattr                        2.5.1-r2               apk
 libbsd                         0.11.7-r0              apk     
 libbz2                         1.0.8-r4               apk     
 libc-utils                     0.7.2-r3               apk     
-libcap2                        2.66-r0                apk     
+libcap2                        2.66-r1                apk     
 libcrypto3                     3.0.8-r4               apk     
-libcurl                        8.0.1-r0               apk     
+libcurl                        8.1.0-r0               apk     
 libexpat                       2.5.0-r0               apk     
 libffi                         3.4.4-r0               apk     
 libgcc                         12.2.1_git20220924-r4  apk     
@@ -124,7 +124,7 @@ promise                        2.3                    python
 psycopg2-binary                2.9.6                  python  
 pyasn1                         0.5.0                  python  
 pycparser                      2.21                   python  
-pymdown-extensions             9.11                   python  
+pymdown-extensions             10.0.1                 python  
 pyrsistent                     0.19.3                 python  
 python                         3.10.11                binary  
 python-dateutil                2.8.2                  python  
