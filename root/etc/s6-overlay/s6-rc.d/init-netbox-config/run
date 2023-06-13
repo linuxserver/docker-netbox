@@ -62,7 +62,7 @@ lsiown -R abc:abc \
     /app/netbox/netbox/static \
     /config
 
-s6-setuidgid abc /usr/bin/python3 ./manage.py migrate
+s6-setuidgid abc python3 ./manage.py migrate
 
 if [[ -n "$SUPERUSER_EMAIL" ]] && [[ -n "$SUPERUSER_PASSWORD" ]]; then
 cat << EOF | s6-setuidgid abc python3 /app/netbox/netbox/manage.py shell
