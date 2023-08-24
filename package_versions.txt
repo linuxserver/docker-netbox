@@ -19,7 +19,7 @@ attrs                          23.1.0                  python
 bash                           5.2.15-r5               apk     
 bleach                         6.0.0                   python  
 boto3                          1.28.26                 python  
-botocore                       1.31.28                 python  
+botocore                       1.31.33                 python  
 brotli-libs                    1.0.9-r14               apk     
 busybox                        1.36.1-r2               apk     
 busybox-binsh                  1.36.1-r2               apk     
@@ -28,7 +28,7 @@ ca-certificates-bundle         20230506-r0             apk
 certifi                        2023.7.22               python  
 cffi                           1.15.1                  python  
 charset-normalizer             3.2.0                   python  
-click                          8.1.6                   python  
+click                          8.1.7                   python  
 colorama                       0.4.6                   python  
 coreutils                      9.3-r1                  apk     
 cryptography                   41.0.3                  python  
@@ -176,7 +176,7 @@ uwsgi                          2.0.21-r3               apk
 uwsgi-python3                  2.0.21-r3               apk     
 watchdog                       3.0.0                   python  
 webencodings                   0.5.1                   python  
-wheel                          0.41.1                  python  
+wheel                          0.41.2                  python  
 xz-libs                        5.4.3-r0                apk     
 zlib                           1.2.13-r1               apk     
 zstd-libs                      1.5.5-r4                apk     
