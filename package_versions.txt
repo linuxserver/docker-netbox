@@ -88,7 +88,7 @@ libproc2                       4.0.4-r0                apk
 libssl3                        3.1.2-r0                apk     
 libstdc++                      12.2.1_git20220924-r10  apk     
 libunistring                   1.1-r1                  apk     
-libwebp                        1.3.1-r0                apk     
+libwebp                        1.3.2-r0                apk     
 libxml2                        2.11.4-r0               apk     
 linux-pam                      1.5.2-r10               apk     
 lz4-libs                       1.9.4-r4                apk     
@@ -147,7 +147,7 @@ regex                          2022.10.31              python
 requests                       2.31.0                  python  
 requests-oauthlib              1.3.1                   python  
 rich                           13.5.2                  python  
-rpds-py                        0.10.2                  python  
+rpds-py                        0.10.3                  python  
 rq                             1.15.1                  python  
 rsa                            4.9                     python  
 scanelf                        1.3.7-r1                apk     
