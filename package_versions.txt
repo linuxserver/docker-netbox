@@ -32,7 +32,7 @@ colorama                       0.4.6                   python
 coreutils                      9.3-r1                  apk     
 cryptography                   41.0.4                  python  
 curl                           8.3.0-r0                apk     
-defusedxml                     0.7.1                   python  
+defusedxml                     0.8.0rc1                python  
 django-cors-headers            4.2.0                   python  
 django-debug-toolbar           4.2.0                   python  
 django-filter                  23.3                    python  
