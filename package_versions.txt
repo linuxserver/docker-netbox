@@ -26,7 +26,7 @@ ca-certificates                20230506-r0             apk
 ca-certificates-bundle         20230506-r0             apk     
 certifi                        2023.7.22               python  
 cffi                           1.16.0                  python  
-charset-normalizer             3.3.1                   python  
+charset-normalizer             3.3.2                   python  
 click                          8.1.7                   python  
 colorama                       0.4.6                   python  
 coreutils                      9.3-r1                  apk     
@@ -64,7 +64,7 @@ idna                           3.4                     python
 inflection                     0.5.1                   python  
 jansson                        2.14-r3                 apk     
 jq                             1.6-r3                  apk     
-jsonschema                     4.19.1                  python  
+jsonschema                     4.19.2                  python  
 jsonschema-specifications      2023.7.1                python  
 libacl                         2.3.1-r3                apk     
 libattr                        2.5.1-r4                apk     
@@ -122,7 +122,7 @@ platformdirs                   3.11.0                  python
 postgresql-common              1.2-r0                  apk     
 postgresql15-client            15.4-r0                 apk     
 procps-ng                      4.0.4-r0                apk     
-prometheus-client              0.17.1                  python  
+prometheus-client              0.18.0                  python  
 promise                        2.3                     python  
 psycopg                        3.1.12                  python  
 psycopg-binary                 3.1.12                  python  
@@ -176,7 +176,7 @@ uwsgi                          2.0.21-r3               apk
 uwsgi-python3                  2.0.21-r3               apk     
 watchdog                       3.0.0                   python  
 webencodings                   0.5.1                   python  
-wheel                          0.41.2                  python  
+wheel                          0.41.3                  python  
 xz-libs                        5.4.3-r0                apk     
 zlib                           1.2.13-r1               apk     
 zstd-libs                      1.5.5-r4                apk     
