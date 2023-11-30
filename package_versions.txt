@@ -64,7 +64,7 @@ inflection                     0.5.1                   python
 jansson                        2.14-r3                 apk     
 jq                             1.6-r3                  apk     
 jsonschema                     4.20.0                  python  
-jsonschema-specifications      2023.11.1               python  
+jsonschema-specifications      2023.11.2               python  
 libacl                         2.3.1-r3                apk     
 libattr                        2.5.1-r4                apk     
 libbsd                         0.11.7-r1               apk     
