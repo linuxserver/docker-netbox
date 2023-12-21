@@ -116,7 +116,7 @@ packaging                      23.2                    python
 paginate                       0.5.6                   python  
 pathspec                       0.12.1                  python  
 pcre                           8.45-r3                 apk     
-pip                            23.3.1                  python  
+pip                            23.3.2                  python  
 platformdirs                   4.1.0                   python  
 postgresql-common              1.2-r0                  apk     
 postgresql15-client            15.5-r0                 apk     
@@ -144,7 +144,7 @@ regex                          2023.10.3               python
 requests                       2.31.0                  python  
 requests-oauthlib              1.3.1                   python  
 rich                           13.7.0                  python  
-rpds-py                        0.13.2                  python  
+rpds-py                        0.15.2                  python  
 rq                             1.15.1                  python  
 scanelf                        1.3.7-r1                apk     
 sentry-sdk                     1.39.1                  python  
