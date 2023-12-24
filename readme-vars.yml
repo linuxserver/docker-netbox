@@ -17,10 +17,10 @@ available_architectures:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "config directory volume mapping" }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files" }
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "<TZ>", desc: "Timezone (i.e., America/New_York)" }
+  - { env_var: "TZ", env_value: "America/New_York", desc: "Timezone (i.e., America/New_York)" }
   - { env_var: "SUPERUSER_EMAIL", env_value: "", desc: "Email address for `admin` account" }
   - { env_var: "SUPERUSER_PASSWORD", env_value: "", desc: "Password for `admin` account" }
   - { env_var: "ALLOWED_HOST", env_value: "", desc: "The hostname you will use to access the app (i.e., netbox.example.com)" }
@@ -58,6 +58,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
   - { date: "11.06.23:", desc: "Rebase to Alpine 3.18, deprecate armhf." }
   - { date: "14.05.23:", desc: "Build local docs on first run." }
   - { date: "05.03.23:", desc: "Rebase to Alpine 3.17." }
