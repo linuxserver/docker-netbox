@@ -8,7 +8,7 @@ Pillow                         10.1.0                  python
 PyJWT                          2.8.0                   python  
 PyYAML                         6.0.1                   python  
 Pygments                       2.17.2                  python  
-SimpleLauncherExecutable       1.1.0.14                dotnet  
+Simple Launcher                1.1.0.14                dotnet  
 alpine-baselayout              3.4.3-r1                apk     
 alpine-baselayout-data         3.4.3-r1                apk     
 alpine-keys                    2.4-r1                  apk     
@@ -43,7 +43,7 @@ django-pglocks                 1.0.4                   python
 django-prometheus              2.3.1                   python  
 django-redis                   5.4.0                   python  
 django-rich                    1.8.0                   python  
-django-rq                      2.9.0                   python  
+django-rq                      2.10.1                  python  
 django-tables2                 2.7.0                   python  
 django-taggit                  4.0.0                   python  
 django-timezone-field          6.1.0                   python  
@@ -64,7 +64,7 @@ inflection                     0.5.1                   python
 jansson                        2.14-r3                 apk     
 jq                             1.6-r4                  apk     
 jsonschema                     4.20.0                  python  
-jsonschema-specifications      2023.11.2               python  
+jsonschema-specifications      2023.12.1               python  
 libacl                         2.3.1-r3                apk     
 libattr                        2.5.1-r4                apk     
 libbsd                         0.11.7-r1               apk     
@@ -97,7 +97,7 @@ mdurl                          0.1.2                   python
 mergedeep                      1.3.4                   python  
 mkdocs                         1.5.3                   python  
 mkdocs-autorefs                0.5.0                   python  
-mkdocs-material                9.5.2                   python  
+mkdocs-material                9.5.3                   python  
 mkdocs-material-extensions     1.3.1                   python  
 mkdocstrings                   0.24.0                  python  
 mkdocstrings-python-legacy     0.2.3                   python  
@@ -123,8 +123,8 @@ postgresql15-client            15.5-r0                 apk
 procps-ng                      4.0.4-r0                apk     
 prometheus-client              0.19.0                  python  
 promise                        2.3                     python  
-psycopg                        3.1.15                  python  
-psycopg-binary                 3.1.15                  python  
+psycopg                        3.1.16                  python  
+psycopg-binary                 3.1.16                  python  
 psycopg-pool                   3.2.0                   python  
 pyc                            0.1-r0                  apk     
 pycparser                      2.21                    python  
@@ -140,7 +140,7 @@ pyyaml_env_tag                 0.1                     python
 readline                       8.2.1-r1                apk     
 redis                          5.0.1                   python  
 referencing                    0.32.0                  python  
-regex                          2023.10.3               python  
+regex                          2023.12.25              python  
 requests                       2.31.0                  python  
 requests-oauthlib              1.3.1                   python  
 rich                           13.7.0                  python  
