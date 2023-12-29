@@ -2,7 +2,7 @@ NAME                           VERSION                 TYPE
 Babel                          2.14.0                  python  
 Django                         4.2.8                   python  
 Jinja2                         3.1.2                   python  
-Markdown                       3.3.7                   python  
+Markdown                       3.5.1                   python  
 MarkupSafe                     2.1.3                   python  
 Pillow                         10.1.0                  python  
 PyJWT                          2.8.0                   python  
@@ -45,7 +45,7 @@ django-redis                   5.4.0                   python
 django-rich                    1.8.0                   python  
 django-rq                      2.10.1                  python  
 django-tables2                 2.7.0                   python  
-django-taggit                  4.0.0                   python  
+django-taggit                  5.0.1                   python  
 django-timezone-field          6.1.0                   python  
 djangorestframework            3.14.0                  python  
 drf-spectacular                0.27.0                  python  
@@ -128,7 +128,7 @@ psycopg-binary                 3.1.16                  python
 psycopg-pool                   3.2.0                   python  
 pyc                            0.1-r0                  apk     
 pycparser                      2.21                    python  
-pymdown-extensions             10.4                    python  
+pymdown-extensions             10.6                    python  
 python-dateutil                2.8.2                   python  
 python3                        3.11.6-r0               apk     
 python3-openid                 3.2.0                   python  
@@ -144,10 +144,9 @@ regex                          2023.12.25              python
 requests                       2.31.0                  python  
 requests-oauthlib              1.3.1                   python  
 rich                           13.7.0                  python  
-rpds-py                        0.16.1                  python  
+rpds-py                        0.16.2                  python  
 rq                             1.15.1                  python  
 scanelf                        1.3.7-r1                apk     
-sentry-sdk                     1.39.1                  python  
 setuptools                     65.5.0                  python  
 sgmllib3k                      1.0.0                   python  
 shadow                         4.13-r4                 apk     
