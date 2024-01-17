@@ -1,10 +1,9 @@
 NAME                           VERSION                 TYPE   
 Babel                          2.14.0                  python  
-Django                         4.2.8                   python  
-Jinja2                         3.1.2                   python  
-Markdown                       3.5.1                   python  
+Django                         4.2.9                   python  
+Jinja2                         3.1.3                   python  
+Markdown                       3.5.2                   python  
 MarkupSafe                     2.1.3                   python  
-Pillow                         10.1.0                  python  
 PyJWT                          2.8.0                   python  
 PyYAML                         6.0.1                   python  
 Pygments                       2.17.2                  python  
@@ -49,7 +48,7 @@ django-taggit                  5.0.1                   python
 django-timezone-field          6.1.0                   python  
 djangorestframework            3.14.0                  python  
 drf-spectacular                0.27.0                  python  
-drf-spectacular-sidecar        2023.12.1               python  
+drf-spectacular-sidecar        2024.1.1                python  
 feedparser                     6.0.11                  python  
 gdbm                           1.23-r1                 apk     
 ghp-import                     2.1.0                   python  
@@ -63,7 +62,7 @@ idna                           3.6                     python
 inflection                     0.5.1                   python  
 jansson                        2.14-r3                 apk     
 jq                             1.6-r4                  apk     
-jsonschema                     4.20.0                  python  
+jsonschema                     4.21.0                  python  
 jsonschema-specifications      2023.12.1               python  
 libacl                         2.3.1-r3                apk     
 libattr                        2.5.1-r4                apk     
@@ -71,7 +70,7 @@ libbsd                         0.11.7-r1               apk
 libbz2                         1.0.8-r5                apk     
 libc-utils                     0.7.2-r5                apk     
 libcap2                        2.69-r0                 apk     
-libcrypto3                     3.1.4-r1                apk     
+libcrypto3                     3.1.4-r4                apk     
 libcurl                        8.5.0-r0                apk     
 libexpat                       2.5.0-r1                apk     
 libffi                         3.4.4-r2                apk     
@@ -84,7 +83,7 @@ libncursesw                    6.4_p20230506-r0        apk
 libpanelw                      6.4_p20230506-r0        apk     
 libpq                          15.5-r0                 apk     
 libproc2                       4.0.4-r0                apk     
-libssl3                        3.1.4-r1                apk     
+libssl3                        3.1.4-r4                apk     
 libstdc++                      12.2.1_git20220924-r10  apk     
 libunistring                   1.1-r1                  apk     
 libwebp                        1.3.2-r0                apk     
@@ -97,7 +96,7 @@ mdurl                          0.1.2                   python
 mergedeep                      1.3.4                   python  
 mkdocs                         1.5.3                   python  
 mkdocs-autorefs                0.5.0                   python  
-mkdocs-material                9.5.3                   python  
+mkdocs-material                9.5.4                   python  
 mkdocs-material-extensions     1.3.1                   python  
 mkdocstrings                   0.24.0                  python  
 mkdocstrings-python-legacy     0.2.3                   python  
@@ -105,7 +104,7 @@ mpdecimal                      2.5.1-r2                apk
 musl                           1.2.4-r2                apk     
 musl-utils                     1.2.4-r2                apk     
 ncurses-terminfo-base          6.4_p20230506-r0        apk     
-netaddr                        0.9.0                   python  
+netaddr                        0.10.1                  python  
 netbox                         0.1.0                   npm     
 netbox-graphiql                0.1.0                   npm     
 netcat-openbsd                 1.219-r1                apk     
@@ -116,6 +115,7 @@ packaging                      23.2                    python
 paginate                       0.5.6                   python  
 pathspec                       0.12.1                  python  
 pcre                           8.45-r3                 apk     
+pillow                         10.2.0                  python  
 pip                            23.3.2                  python  
 platformdirs                   4.1.0                   python  
 postgresql-common              1.2-r0                  apk     
@@ -123,8 +123,8 @@ postgresql15-client            15.5-r0                 apk
 procps-ng                      4.0.4-r0                apk     
 prometheus-client              0.19.0                  python  
 promise                        2.3                     python  
-psycopg                        3.1.16                  python  
-psycopg-binary                 3.1.16                  python  
+psycopg                        3.1.17                  python  
+psycopg-binary                 3.1.17                  python  
 psycopg-pool                   3.2.1                   python  
 pyc                            0.1-r0                  apk     
 pycparser                      2.21                    python  
@@ -144,7 +144,7 @@ regex                          2023.12.25              python
 requests                       2.31.0                  python  
 requests-oauthlib              1.3.1                   python  
 rich                           13.7.0                  python  
-rpds-py                        0.16.2                  python  
+rpds-py                        0.17.1                  python  
 rq                             1.15.1                  python  
 scanelf                        1.3.7-r1                apk     
 setuptools                     65.5.0                  python  
@@ -162,7 +162,7 @@ tablib                         3.5.0                   python
 text-unidecode                 1.3                     python  
 tiff                           4.5.1-r0                apk     
 typing_extensions              4.9.0                   python  
-tzdata                         2023.3                  python  
+tzdata                         2023.4                  python  
 tzdata                         2023d-r0                apk     
 uritemplate                    4.1.1                   python  
 urllib3                        2.1.0                   python  
