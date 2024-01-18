@@ -154,7 +154,7 @@ six                            1.16.0                  python
 skalibs                        2.13.1.1-r1             apk     
 social-auth-app-django         5.4.0                   python  
 social-auth-core               4.5.1                   python  
-sqlite-libs                    3.41.2-r2               apk     
+sqlite-libs                    3.41.2-r3               apk     
 sqlparse                       0.4.4                   python  
 ssl_client                     1.36.1-r5               apk     
 svgwrite                       1.4.3                   python  
