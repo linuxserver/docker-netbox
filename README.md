@@ -100,7 +100,7 @@ services:
       - REMOTE_AUTH_DEFAULT_GROUPS= #optional
       - REMOTE_AUTH_DEFAULT_PERMISSIONS= #optional
     volumes:
-      - /path/to/data:/config
+      - /path/to/netbox/config:/config
     ports:
       - 8000:8000
     restart: unless-stopped
@@ -135,7 +135,7 @@ docker run -d \
   -e REMOTE_AUTH_DEFAULT_GROUPS= `#optional` \
   -e REMOTE_AUTH_DEFAULT_PERMISSIONS= `#optional` \
   -p 8000:8000 \
-  -v /path/to/data:/config \
+  -v /path/to/netbox/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/netbox:latest
 ```
@@ -170,7 +170,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e REMOTE_AUTH_AUTO_CREATE_USER=` | If true, NetBox will automatically create local accounts for users authenticated via a remote service (optional, default: False) |
 | `-e REMOTE_AUTH_DEFAULT_GROUPS=` | The list of groups to assign a new user account when created using remote authentication (optional, default: []) |
 | `-e REMOTE_AUTH_DEFAULT_PERMISSIONS=` | A mapping of permissions to assign a new user account when created using remote authentication (optional, default: {}) |
-| `-v /config` | config directory volume mapping |
+| `-v /config` | Persistent config files |
 
 ## Environment variables from files (Docker secrets)
 
@@ -333,6 +333,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.12.23:** - Rebase to Alpine 3.19.
 * **11.06.23:** - Rebase to Alpine 3.18, deprecate armhf.
 * **14.05.23:** - Build local docs on first run.
 * **05.03.23:** - Rebase to Alpine 3.17.
