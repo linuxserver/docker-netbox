@@ -33,7 +33,7 @@ coreutils                      9.4-r1                 apk
 coreutils-env                  9.4-r1                 apk     
 coreutils-fmt                  9.4-r1                 apk     
 coreutils-sha512sum            9.4-r1                 apk     
-cryptography                   42.0.0                 python  
+cryptography                   42.0.1                 python  
 curl                           8.5.0-r0               apk     
 defusedxml                     0.8.0rc2               python  
 django-cors-headers            4.3.1                  python  
