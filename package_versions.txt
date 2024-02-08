@@ -174,7 +174,7 @@ urllib3                        2.2.0                  python
 utmps-libs                     0.1.2.2-r0             apk     
 uwsgi                          2.0.23-r1              apk     
 uwsgi-python3                  2.0.23-r1              apk     
-watchdog                       3.0.0                  python  
+watchdog                       4.0.0                  python  
 webencodings                   0.5.1                  python  
 wheel                          0.42.0                 python  
 xz-libs                        5.4.5-r0               apk     
