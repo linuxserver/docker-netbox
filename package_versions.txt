@@ -1,6 +1,6 @@
 NAME                           VERSION                TYPE                    
 Babel                          2.14.0                 python                   
-Django                         4.2.10                 python                   
+Django                         4.2.11                 python                   
 Jinja2                         3.1.3                  python                   
 Markdown                       3.5.2                  python                   
 MarkupSafe                     2.1.5                  python                   
@@ -15,7 +15,6 @@ alpine-release                 3.19.1-r0              apk
 aniso8601                      9.0.1                  python                   
 apk-tools                      2.14.0-r5              apk                      
 asgiref                        3.7.2                  python                   
-async-timeout                  4.0.3                  python                   
 attrs                          23.2.0                 python                   
 bash                           5.2.21-r0              apk                      
 bleach                         6.1.0                  python                   
@@ -39,7 +38,7 @@ curl                           8.5.0-r0               apk
 defusedxml                     0.8.0rc2               python                   
 django-cors-headers            4.3.1                  python                   
 django-debug-toolbar           4.3.0                  python                   
-django-filter                  23.5                   python                   
+django-filter                  24.1                   python                   
 django-graphiql-debug-toolbar  0.2.0                  python                   
 django-js-asset                2.2.0                  python                   
 django-mptt                    0.14.0                 python                   
@@ -53,7 +52,7 @@ django-taggit                  5.0.1                  python
 django-timezone-field          6.1.0                  python                   
 djangorestframework            3.14.0                 python                   
 drf-spectacular                0.27.1                 python                   
-drf-spectacular-sidecar        2024.2.1               python                   
+drf-spectacular-sidecar        2024.3.4               python                   
 feedparser                     6.0.11                 python                   
 gdbm                           1.23-r1                apk                      
 ghp-import                     2.1.0                  python                   
@@ -102,9 +101,9 @@ mdurl                          0.1.2                  python
 mergedeep                      1.3.4                  python                   
 mkdocs                         1.5.3                  python                   
 mkdocs-autorefs                1.0.1                  python                   
-mkdocs-material                9.5.10                 python                   
+mkdocs-material                9.5.13                 python                   
 mkdocs-material-extensions     1.3.1                  python                   
-mkdocstrings                   0.24.0                 python                   
+mkdocstrings                   0.24.1                 python                   
 mkdocstrings-python-legacy     0.2.3                  python                   
 mpdecimal                      2.5.1-r2               apk                      
 musl                           1.2.4_git20230717-r4   apk                      
@@ -117,7 +116,7 @@ netcat-openbsd                 1.226-r0               apk
 nghttp2-libs                   1.58.0-r0              apk                      
 oauthlib                       3.2.2                  python                   
 oniguruma                      6.9.9-r0               apk                      
-packaging                      23.2                   python                   
+packaging                      24.0                   python                   
 paginate                       0.5.6                  python                   
 pathspec                       0.12.1                 python                   
 pcre                           8.45-r3                apk                      
@@ -144,14 +143,14 @@ pytkdocs                       0.16.1                 python
 pytz                           2024.1                 python                   
 pyyaml_env_tag                 0.1                    python                   
 readline                       8.2.1-r2               apk                      
-redis                          5.0.2                  python                   
+redis                          5.0.3                  python                   
 referencing                    0.33.0                 python                   
 regex                          2023.12.25             python                   
 requests                       2.31.0                 python                   
-requests-oauthlib              1.3.1                  python                   
+requests-oauthlib              1.4.0                  python                   
 rich                           13.7.1                 python                   
 rpds-py                        0.18.0                 python                   
-rq                             1.16.0                 python                   
+rq                             1.16.1                 python                   
 scanelf                        1.3.7-r2               apk                      
 setuptools                     65.5.0                 python                   
 sgmllib3k                      1.0.0                  python                   
@@ -177,7 +176,7 @@ uwsgi                          2.0.23-r1              apk
 uwsgi-python3                  2.0.23-r1              apk                      
 watchdog                       4.0.0                  python                   
 webencodings                   0.5.1                  python                   
-wheel                          0.42.0                 python                   
+wheel                          0.43.0                 python                   
 xz-libs                        5.4.5-r0               apk                      
 zlib                           1.3.1-r0               apk                      
 zstd-libs                      1.5.5-r8               apk                      
