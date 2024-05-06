@@ -1,12 +1,12 @@
 NAME                           VERSION                TYPE                    
-Babel                          2.14.0                 python                   
+Babel                          2.15.0                 python                   
 Django                         4.2.11                 python                   
-Jinja2                         3.1.3                  python                   
+Jinja2                         3.1.4                  python                   
 Markdown                       3.6                    python                   
 MarkupSafe                     2.1.5                  python                   
 PyJWT                          2.8.0                  python                   
 PyYAML                         6.0.1                  python                   
-Pygments                       2.17.2                 python                   
+Pygments                       2.18.0                 python                   
 Simple Launcher                1.1.0.14               dotnet  (+5 duplicates)  
 alpine-baselayout              3.4.3-r2               apk                      
 alpine-baselayout-data         3.4.3-r2               apk                      
@@ -33,7 +33,7 @@ coreutils                      9.4-r2                 apk
 coreutils-env                  9.4-r2                 apk                      
 coreutils-fmt                  9.4-r2                 apk                      
 coreutils-sha512sum            9.4-r2                 apk                      
-cryptography                   42.0.5                 python                   
+cryptography                   42.0.7                 python                   
 curl                           8.5.0-r0               apk                      
 defusedxml                     0.8.0rc2               python                   
 django-cors-headers            4.3.1                  python                   
@@ -103,9 +103,9 @@ mergedeep                      1.3.4                  python
 mkdocs                         1.6.0                  python                   
 mkdocs-autorefs                1.0.1                  python                   
 mkdocs-get-deps                0.2.0                  python                   
-mkdocs-material                9.5.20                 python                   
+mkdocs-material                9.5.21                 python                   
 mkdocs-material-extensions     1.3.1                  python                   
-mkdocstrings                   0.25.0                 python                   
+mkdocstrings                   0.25.1                 python                   
 mkdocstrings-python-legacy     0.2.3                  python                   
 mpdecimal                      2.5.1-r2               apk                      
 musl                           1.2.4_git20230717-r4   apk                      
@@ -151,7 +151,7 @@ regex                          2024.4.28              python
 requests                       2.31.0                 python                   
 requests-oauthlib              2.0.0                  python                   
 rich                           13.7.1                 python                   
-rpds-py                        0.18.0                 python                   
+rpds-py                        0.18.1                 python                   
 rq                             1.16.2                 python                   
 scanelf                        1.3.7-r2               apk                      
 setuptools                     65.5.0                 python                   
