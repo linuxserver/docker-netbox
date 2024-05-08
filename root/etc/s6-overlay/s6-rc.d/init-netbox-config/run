@@ -53,7 +53,7 @@ mv /defaults/uwsgi.ini /app/netbox/netbox/uwsgi.ini > /dev/null 2>&1
 if [[ ! -e "/app/netbox/netbox/project-static/docs/index.html" ]]; then
     cd /app/netbox || exit 1
     echo "Building local documentation"
-    mkdocs build
+    mkdocs build -q
     cd /app/netbox/netbox || exit 1
 fi
 
@@ -66,13 +66,13 @@ s6-setuidgid abc python3 ./manage.py migrate
 
 if [[ -n "$SUPERUSER_EMAIL" ]] && [[ -n "$SUPERUSER_PASSWORD" ]]; then
 cat << EOF | s6-setuidgid abc python3 /app/netbox/netbox/manage.py shell
-from django.contrib.auth.models import User;
+from users.models import Token, User;
 
 username = 'admin';
 password = '$SUPERUSER_PASSWORD';
 email = '$SUPERUSER_EMAIL';
 
-if User.objects.filter(username=username).count()==0:
+if not User.objects.filter(username='admin'):
     User.objects.create_superuser(username, email, password);
     print('Superuser created.');
 else:
