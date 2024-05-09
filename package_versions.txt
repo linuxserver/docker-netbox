@@ -1,6 +1,6 @@
 NAME                           VERSION                TYPE                    
 Babel                          2.15.0                 python                   
-Django                         5.0.5                  python                   
+Django                         5.0.6                  python                   
 Jinja2                         3.1.4                  python                   
 Markdown                       3.6                    python                   
 MarkupSafe                     2.1.5                  python                   
@@ -164,7 +164,7 @@ social-auth-core               4.5.4                  python
 sqlite-libs                    3.44.2-r0              apk                      
 sqlparse                       0.5.0                  python                   
 ssl_client                     1.36.1-r15             apk                      
-strawberry-graphql             0.227.3                python                   
+strawberry-graphql             0.227.4                python                   
 strawberry-graphql-django      0.39.2                 python                   
 svgwrite                       1.4.3                  python                   
 tablib                         3.6.1                  python                   
