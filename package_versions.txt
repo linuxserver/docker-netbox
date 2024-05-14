@@ -103,7 +103,7 @@ mergedeep                      1.3.4                  python
 mkdocs                         1.6.0                  python                   
 mkdocs-autorefs                1.0.1                  python                   
 mkdocs-get-deps                0.2.0                  python                   
-mkdocs-material                9.5.21                 python                   
+mkdocs-material                9.5.22                 python                   
 mkdocs-material-extensions     1.3.1                  python                   
 mkdocstrings                   0.25.1                 python                   
 mkdocstrings-python-legacy     0.2.3                  python                   
@@ -131,9 +131,9 @@ postgresql16-client            16.2-r1                apk
 procps-ng                      4.0.4-r0               apk                      
 prometheus_client              0.20.0                 python                   
 promise                        2.3                    python                   
-psycopg                        3.1.18                 python                   
-psycopg-c                      3.1.18                 python                   
-psycopg-pool                   3.2.1                  python                   
+psycopg                        3.1.19                 python                   
+psycopg-c                      3.1.19                 python                   
+psycopg-pool                   3.2.2                  python                   
 pyc                            3.11.9-r0              apk                      
 pycparser                      2.22                   python                   
 pymdown-extensions             10.8.1                 python                   
@@ -147,7 +147,7 @@ pyyaml_env_tag                 0.1                    python
 readline                       8.2.1-r2               apk                      
 redis                          5.0.4                  python                   
 referencing                    0.35.1                 python                   
-regex                          2024.4.28              python                   
+regex                          2024.5.10              python                   
 requests                       2.31.0                 python                   
 requests-oauthlib              2.0.0                  python                   
 rich                           13.7.1                 python                   
@@ -164,8 +164,8 @@ social-auth-core               4.5.4                  python
 sqlite-libs                    3.44.2-r0              apk                      
 sqlparse                       0.5.0                  python                   
 ssl_client                     1.36.1-r15             apk                      
-strawberry-graphql             0.227.4                python                   
-strawberry-graphql-django      0.39.2                 python                   
+strawberry-graphql             0.229.0                python                   
+strawberry-graphql-django      0.40.0                 python                   
 svgwrite                       1.4.3                  python                   
 tablib                         3.6.1                  python                   
 text-unidecode                 1.3                    python                   
