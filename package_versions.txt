@@ -18,8 +18,8 @@ asgiref                        3.8.1                  python
 attrs                          23.2.0                 python                   
 bash                           5.2.21-r0              apk                      
 brotli-libs                    1.1.0-r1               apk                      
-busybox                        1.36.1-r15             apk                      
-busybox-binsh                  1.36.1-r15             apk                      
+busybox                        1.36.1-r18             apk                      
+busybox-binsh                  1.36.1-r18             apk                      
 c-ares                         1.27.0-r0              apk                      
 ca-certificates                20240226-r0            apk                      
 ca-certificates-bundle         20240226-r0            apk                      
@@ -163,7 +163,7 @@ social-auth-app-django         5.4.1                  python
 social-auth-core               4.5.4                  python                   
 sqlite-libs                    3.44.2-r0              apk                      
 sqlparse                       0.5.0                  python                   
-ssl_client                     1.36.1-r15             apk                      
+ssl_client                     1.36.1-r18             apk                      
 strawberry-graphql             0.230.0                python                   
 strawberry-graphql-django      0.40.0                 python                   
 svgwrite                       1.4.3                  python                   
