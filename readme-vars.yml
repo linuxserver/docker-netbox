@@ -28,7 +28,7 @@ param_env_vars:
   - { env_var: "DB_USER", env_value: "", desc: "Database user" }
   - { env_var: "DB_PASSWORD", env_value: "", desc: "Database password" }
   - { env_var: "DB_HOST", env_value: "", desc: "Database host (default: postgres)" }
-  - { env_var: "DB_PORT", env_value: "", desc: "Database port (defaul: 5432)" }
+  - { env_var: "DB_PORT", env_value: "", desc: "Database port (default: 5432)" }
   - { env_var: "REDIS_HOST", env_value: "", desc: "Redis host (default: redis)" }
   - { env_var: "REDIS_PORT", env_value: "", desc: "Redis port number (default: 6379)" }
   - { env_var: "REDIS_PASSWORD", env_value: "", desc: "Redis password (default: none)" }
@@ -53,11 +53,12 @@ param_ports:
 app_setup_block_enabled: true
 app_setup_block: |
   Netbox requires a postgres database and a redis instance.
-  
+
   Access the WebUI at <your-ip>:8000. For more information, check out [NetBox](https://github.com/netbox-community/netbox).
 
 # changelog
 changelogs:
+  - { date: "01.06.24:", desc: "Rebase to Alpine 3.20."}
   - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
   - { date: "11.06.23:", desc: "Rebase to Alpine 3.18, deprecate armhf." }
   - { date: "14.05.23:", desc: "Build local docs on first run." }
