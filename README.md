@@ -157,7 +157,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e DB_USER=` | Database user |
 | `-e DB_PASSWORD=` | Database password |
 | `-e DB_HOST=` | Database host (default: postgres) |
-| `-e DB_PORT=` | Database port (defaul: 5432) |
+| `-e DB_PORT=` | Database port (default: 5432) |
 | `-e REDIS_HOST=` | Redis host (default: redis) |
 | `-e REDIS_PORT=` | Redis port number (default: 6379) |
 | `-e REDIS_PASSWORD=` | Redis password (default: none) |
@@ -333,6 +333,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **01.06.24:** - Rebase to Alpine 3.20.
 * **23.12.23:** - Rebase to Alpine 3.19.
 * **11.06.23:** - Rebase to Alpine 3.18, deprecate armhf.
 * **14.05.23:** - Build local docs on first run.
