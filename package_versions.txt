@@ -145,7 +145,7 @@ python3-pycache-pyc0           3.12.3-r1              apk
 pytkdocs                       0.16.1                 python                   
 pyyaml_env_tag                 0.1                    python                   
 readline                       8.2.10-r0              apk                      
-redis                          5.0.5                  python                   
+redis                          5.0.6                  python                   
 referencing                    0.35.1                 python                   
 regex                          2024.5.15              python                   
 requests                       2.32.3                 python                   
@@ -173,7 +173,7 @@ typing_extensions              4.12.2                 python
 tzdata                         2024.1                 python                   
 tzdata                         2024a-r1               apk                      
 uritemplate                    4.1.1                  python                   
-urllib3                        2.2.1                  python                   
+urllib3                        2.2.2                  python                   
 utmps-libs                     0.1.2.2-r1             apk                      
 uwsgi                          2.0.25.1-r1            apk                      
 uwsgi-python3                  2.0.25.1-r1            apk                      
