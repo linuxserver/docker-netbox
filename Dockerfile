@@ -25,6 +25,7 @@ RUN \
     zlib-dev && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
+    libldap \
     postgresql-client \
     python3 \
     tiff \
