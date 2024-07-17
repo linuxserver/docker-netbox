@@ -47,6 +47,9 @@ ln -sf /config/media /app/netbox/netbox/media
 
 ln -sf /config/configuration.py /app/netbox/netbox/netbox/configuration.py
 
+touch /config/ldap_config.py
+ln -sf /config/ldap_config.py /app/netbox/netbox/netbox/ldap_config.py
+
 mv /defaults/uwsgi.ini /app/netbox/netbox/uwsgi.ini > /dev/null 2>&1
 
 # build docs

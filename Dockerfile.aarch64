@@ -18,15 +18,17 @@ RUN \
     libffi-dev \
     libxslt-dev \
     libxml2-dev \
+    openldap-dev \
     openssl-dev \
     postgresql-dev \
     python3-dev \
     zlib-dev && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
-    tiff \
+    libldap \
     postgresql-client \
     python3 \
+    tiff \
     uwsgi \
     uwsgi-python && \
   echo "**** install netbox ****" && \
@@ -48,6 +50,7 @@ RUN \
     pip \
     wheel && \
   pip install --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.20/ -r requirements.txt && \
+  pip install --no-cache-dir  django-auth-ldap && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apk del --purge \
