@@ -1,0 +1,22 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+cd /app/netbox/netbox || exit 1
+
+s6-setuidgid abc python3 ./manage.py migrate
+
+if [[ -n "$SUPERUSER_EMAIL" ]] && [[ -n "$SUPERUSER_PASSWORD" ]]; then
+cat << EOF | s6-setuidgid abc python3 /app/netbox/netbox/manage.py shell
+from users.models import Token, User;
+
+username = 'admin';
+password = '$SUPERUSER_PASSWORD';
+email = '$SUPERUSER_EMAIL';
+
+if not User.objects.filter(username='admin'):
+    User.objects.create_superuser(username, email, password);
+    print('Superuser created.');
+else:
+    print('Superuser creation skipped. Already exists.');
+EOF
+fi

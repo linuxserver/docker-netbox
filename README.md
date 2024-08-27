@@ -333,6 +333,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **26.08.24:** - Restructure init to allow for plugins as mods.
 * **16.07.24:** - Add required packages for LDAP support.
 * **01.06.24:** - Rebase to Alpine 3.20.
 * **23.12.23:** - Rebase to Alpine 3.19.
