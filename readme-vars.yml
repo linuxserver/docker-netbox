@@ -57,6 +57,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "26.08.24:", desc: "Restructure init to allow for plugins as mods."}
   - { date: "16.07.24:", desc: "Add required packages for LDAP support."}
   - { date: "01.06.24:", desc: "Rebase to Alpine 3.20."}
   - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
