@@ -20,3 +20,15 @@ else:
     print('Superuser creation skipped. Already exists.');
 EOF
 fi
+
+# build docs
+if [[ ! -e "/app/netbox/netbox/project-static/docs/index.html" ]]; then
+    cd /app/netbox || exit 1
+    echo "Building local documentation"
+    mkdocs build -q
+    cd /app/netbox/netbox || exit 1
+fi
+
+# permissions
+lsiown -R abc:abc \
+    /app/netbox/netbox/static
