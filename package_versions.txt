@@ -27,7 +27,7 @@ coreutils-env                  9.5-r1                 apk
 coreutils-fmt                  9.5-r1                 apk                      
 coreutils-sha512sum            9.5-r1                 apk                      
 cryptography                   43.0.1                 python                   
-curl                           8.9.1-r1               apk                      
+curl                           8.10.0-r0              apk                      
 defusedxml                     0.8.0rc2               python                   
 django                         5.0.9                  python                   
 django-auth-ldap               4.8.0                  python                   
@@ -58,7 +58,7 @@ graphene-django                3.2.2                  python
 graphql-core                   3.2.4                  python                   
 graphql-relay                  3.2.0                  python                   
 gunicorn                       23.0.0                 python                   
-idna                           3.8                    python                   
+idna                           3.10                   python                   
 inflection                     0.5.1                  python                   
 jansson                        2.14-r4                apk                      
 jinja2                         3.1.4                  python                   
@@ -71,7 +71,7 @@ libbsd                         0.12.2-r0              apk
 libbz2                         1.0.8-r6               apk                      
 libcap2                        2.70-r0                apk                      
 libcrypto3                     3.3.2-r0               apk                      
-libcurl                        8.9.1-r1               apk                      
+libcurl                        8.10.0-r0              apk                      
 libexpat                       2.6.3-r0               apk                      
 libffi                         3.4.6-r0               apk                      
 libgcc                         13.2.1_git20240309-r0  apk                      
@@ -125,7 +125,7 @@ pathspec                       0.12.1                 python
 pcre2                          10.43-r0               apk                      
 pillow                         10.4.0                 python                   
 pip                            24.2                   python                   
-platformdirs                   4.3.2                  python                   
+platformdirs                   4.3.6                  python                   
 postgresql-common              1.2-r1                 apk                      
 postgresql16-client            16.3-r0                apk                      
 procps-ng                      4.0.4-r0               apk                      
@@ -133,7 +133,7 @@ prometheus-client              0.20.0                 python
 promise                        2.3                    python                   
 psycopg                        3.2.1                  python                   
 psycopg-c                      3.2.1                  python                   
-psycopg-pool                   3.2.2                  python                   
+psycopg-pool                   3.2.3                  python                   
 pyasn1                         0.6.1                  python                   
 pyasn1-modules                 0.4.1                  python                   
 pyc                            3.12.6-r0              apk                      
