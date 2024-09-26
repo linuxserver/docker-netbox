@@ -27,7 +27,7 @@ coreutils-env                  9.5-r1                 apk
 coreutils-fmt                  9.5-r1                 apk                      
 coreutils-sha512sum            9.5-r1                 apk                      
 cryptography                   43.0.1                 python                   
-curl                           8.10.0-r0              apk                      
+curl                           8.9.1-r2               apk                      
 defusedxml                     0.8.0rc2               python                   
 django                         5.0.9                  python                   
 django-auth-ldap               4.8.0                  python                   
@@ -71,14 +71,14 @@ libbsd                         0.12.2-r0              apk
 libbz2                         1.0.8-r6               apk                      
 libcap2                        2.70-r0                apk                      
 libcrypto3                     3.3.2-r0               apk                      
-libcurl                        8.10.0-r0              apk                      
+libcurl                        8.9.1-r2               apk                      
 libexpat                       2.6.3-r0               apk                      
 libffi                         3.4.6-r0               apk                      
 libgcc                         13.2.1_git20240309-r0  apk                      
 libidn2                        2.3.7-r0               apk                      
 libintl                        0.22.5-r0              apk                      
 libjpeg-turbo                  3.0.3-r0               apk                      
-libldap                        2.6.7-r0               apk                      
+libldap                        2.6.8-r0               apk                      
 libmd                          1.1.0-r0               apk                      
 libncursesw                    6.4_p20240420-r1       apk                      
 libpanelw                      6.4_p20240420-r1       apk                      
@@ -129,7 +129,7 @@ platformdirs                   4.3.6                  python
 postgresql-common              1.2-r1                 apk                      
 postgresql16-client            16.3-r0                apk                      
 procps-ng                      4.0.4-r0               apk                      
-prometheus-client              0.20.0                 python                   
+prometheus-client              0.21.0                 python                   
 promise                        2.3                    python                   
 psycopg                        3.2.1                  python                   
 psycopg-c                      3.2.1                  python                   
@@ -140,7 +140,7 @@ pyc                            3.12.6-r0              apk
 pycparser                      2.22                   python                   
 pygments                       2.18.0                 python                   
 pyjwt                          2.9.0                  python                   
-pymdown-extensions             10.9                   python                   
+pymdown-extensions             10.10.2                python                   
 python-dateutil                2.9.0.post0            python                   
 python-ldap                    3.4.4                  python                   
 python3                        3.12.6-r0              apk                      
