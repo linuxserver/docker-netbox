@@ -103,7 +103,7 @@ mergedeep                      1.3.4                  python
 mkdocs                         1.6.1                  python                   
 mkdocs-autorefs                1.2.0                  python                   
 mkdocs-get-deps                0.2.0                  python                   
-mkdocs-material                9.5.34                 python                   
+mkdocs-material                9.5.38                 python                   
 mkdocs-material-extensions     1.3.1                  python                   
 mkdocstrings                   0.26.1                 python                   
 mkdocstrings-python-legacy     0.2.4                  python                   
@@ -131,8 +131,8 @@ postgresql16-client            16.3-r0                apk
 procps-ng                      4.0.4-r0               apk                      
 prometheus-client              0.21.0                 python                   
 promise                        2.3                    python                   
-psycopg                        3.2.1                  python                   
-psycopg-c                      3.2.1                  python                   
+psycopg                        3.2.2                  python                   
+psycopg-c                      3.2.2                  python                   
 psycopg-pool                   3.2.3                  python                   
 pyasn1                         0.6.1                  python                   
 pyasn1-modules                 0.4.1                  python                   
@@ -169,14 +169,14 @@ social-auth-core               4.5.4                  python
 sqlite-libs                    3.45.3-r1              apk                      
 sqlparse                       0.5.1                  python                   
 ssl_client                     1.36.1-r29             apk                      
-strawberry-graphql             0.240.2                python                   
-strawberry-graphql-django      0.47.2                 python                   
+strawberry-graphql             0.243.1                python                   
+strawberry-graphql-django      0.48.0                 python                   
 svgwrite                       1.4.3                  python                   
 tablib                         3.6.1                  python                   
 text-unidecode                 1.3                    python                   
 tiff                           4.6.0t-r0              apk                      
 typing-extensions              4.12.2                 python                   
-tzdata                         2024.1                 python                   
+tzdata                         2024.2                 python                   
 tzdata                         2024b-r0               apk                      
 uritemplate                    4.1.1                  python                   
 urllib3                        2.2.3                  python                   
