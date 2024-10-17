@@ -30,7 +30,7 @@ cryptography                   43.0.1                 python
 curl                           8.9.1-r2               apk                      
 defusedxml                     0.8.0rc2               python                   
 django                         5.0.9                  python                   
-django-auth-ldap               5.0.0                  python                   
+django-auth-ldap               5.1.0                  python                   
 django-cors-headers            4.5.0                  python                   
 django-debug-toolbar           4.4.6                  python                   
 django-filter                  24.3                   python                   
