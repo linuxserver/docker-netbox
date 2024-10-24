@@ -4,7 +4,6 @@ alpine-baselayout              3.6.5-r0               apk
 alpine-baselayout-data         3.6.5-r0               apk                      
 alpine-keys                    2.4-r1                 apk                      
 alpine-release                 3.20.3-r0              apk                      
-aniso8601                      9.0.1                  python                   
 apk-tools                      2.14.4-r0              apk                      
 asgiref                        3.8.1                  python                   
 attrs                          24.2.0                 python                   
@@ -26,7 +25,7 @@ coreutils                      9.5-r1                 apk
 coreutils-env                  9.5-r1                 apk                      
 coreutils-fmt                  9.5-r1                 apk                      
 coreutils-sha512sum            9.5-r1                 apk                      
-cryptography                   43.0.1                 python                   
+cryptography                   43.0.3                 python                   
 curl                           8.9.1-r2               apk                      
 defusedxml                     0.8.0rc2               python                   
 django                         5.0.9                  python                   
@@ -53,7 +52,7 @@ feedparser                     6.0.11                 python
 findutils                      4.9.0-r5               apk                      
 gdbm                           1.23-r1                apk                      
 ghp-import                     2.1.0                  python                   
-graphene                       3.3                    python                   
+graphene                       3.4                    python                   
 graphene-django                3.2.2                  python                   
 graphql-core                   3.2.5                  python                   
 graphql-relay                  3.2.0                  python                   
@@ -70,7 +69,7 @@ libattr                        2.5.2-r0               apk
 libbsd                         0.12.2-r0              apk                      
 libbz2                         1.0.8-r6               apk                      
 libcap2                        2.70-r0                apk                      
-libcrypto3                     3.3.2-r0               apk                      
+libcrypto3                     3.3.2-r1               apk                      
 libcurl                        8.9.1-r2               apk                      
 libexpat                       2.6.3-r0               apk                      
 libffi                         3.4.6-r0               apk                      
@@ -87,7 +86,7 @@ libproc2                       4.0.4-r0               apk
 libpsl                         0.21.5-r1              apk                      
 libsasl                        2.1.28-r6              apk                      
 libsharpyuv                    1.3.2-r0               apk                      
-libssl3                        3.3.2-r0               apk                      
+libssl3                        3.3.2-r1               apk                      
 libstdc++                      13.2.1_git20240309-r0  apk                      
 libunistring                   1.2-r0                 apk                      
 libwebp                        1.3.2-r0               apk                      
@@ -97,7 +96,7 @@ lz4-libs                       1.9.4-r5               apk
 mailcap                        2.1.54-r0              apk                      
 markdown                       3.7                    python                   
 markdown-it-py                 3.0.0                  python                   
-markupsafe                     3.0.1                  python                   
+markupsafe                     3.0.2                  python                   
 mdurl                          0.1.2                  python                   
 mergedeep                      1.3.4                  python                   
 mkdocs                         1.6.1                  python                   
@@ -151,12 +150,12 @@ pytkdocs                       0.16.2                 python
 pyyaml                         6.0.2                  python                   
 pyyaml-env-tag                 0.1                    python                   
 readline                       8.2.10-r0              apk                      
-redis                          5.1.1                  python                   
+redis                          5.2.0                  python                   
 referencing                    0.35.1                 python                   
 regex                          2024.9.11              python                   
 requests                       2.32.3                 python                   
 requests-oauthlib              2.0.0                  python                   
-rich                           13.9.2                 python                   
+rich                           13.9.3                 python                   
 rpds-py                        0.20.0                 python                   
 rq                             1.16.2                 python                   
 scanelf                        1.3.7-r2               apk                      
