@@ -52,7 +52,7 @@ feedparser                     6.0.11                 python
 findutils                      4.9.0-r5               apk                      
 gdbm                           1.23-r1                apk                      
 ghp-import                     2.1.0                  python                   
-graphene                       3.4.1                  python                   
+graphene                       3.4.3                  python                   
 graphene-django                3.2.2                  python                   
 graphql-core                   3.2.5                  python                   
 graphql-relay                  3.2.0                  python                   
@@ -71,7 +71,7 @@ libbz2                         1.0.8-r6               apk
 libcap2                        2.70-r0                apk                      
 libcrypto3                     3.3.2-r1               apk                      
 libcurl                        8.9.1-r2               apk                      
-libexpat                       2.6.3-r0               apk                      
+libexpat                       2.6.4-r0               apk                      
 libffi                         3.4.6-r0               apk                      
 libgcc                         13.2.1_git20240309-r0  apk                      
 libidn2                        2.3.7-r0               apk                      
@@ -79,8 +79,8 @@ libintl                        0.22.5-r0              apk
 libjpeg-turbo                  3.0.3-r0               apk                      
 libldap                        2.6.8-r0               apk                      
 libmd                          1.1.0-r0               apk                      
-libncursesw                    6.4_p20240420-r1       apk                      
-libpanelw                      6.4_p20240420-r1       apk                      
+libncursesw                    6.4_p20240420-r2       apk                      
+libpanelw                      6.4_p20240420-r2       apk                      
 libpq                          16.4-r0                apk                      
 libproc2                       4.0.4-r0               apk                      
 libpsl                         0.21.5-r1              apk                      
@@ -109,7 +109,7 @@ mkdocstrings-python-legacy     0.2.4                  python
 mpdecimal                      4.0.0-r0               apk                      
 musl                           1.2.5-r0               apk                      
 musl-utils                     1.2.5-r0               apk                      
-ncurses-terminfo-base          6.4_p20240420-r1       apk                      
+ncurses-terminfo-base          6.4_p20240420-r2       apk                      
 netaddr                        1.3.0                  python                   
 netbox                         4.0.0                  npm                      
 netbox-graphiql                4.1.0                  npm                      
@@ -118,7 +118,7 @@ nghttp2-libs                   1.62.1-r0              apk
 nh3                            0.2.18                 python                   
 oauthlib                       3.2.2                  python                   
 oniguruma                      6.9.9-r0               apk                      
-packaging                      24.1                   python                   
+packaging                      24.2                   python                   
 paginate                       0.5.7                  python                   
 pathspec                       0.12.1                 python                   
 pcre2                          10.43-r0               apk                      
@@ -166,7 +166,7 @@ skalibs                        2.14.1.1-r0            apk
 social-auth-app-django         5.4.2                  python                   
 social-auth-core               4.5.4                  python                   
 sqlite-libs                    3.45.3-r1              apk                      
-sqlparse                       0.5.1                  python                   
+sqlparse                       0.5.2                  python                   
 ssl_client                     1.36.1-r29             apk                      
 strawberry-graphql             0.247.0                python                   
 strawberry-graphql-django      0.49.1                 python                   
@@ -183,7 +183,7 @@ utmps-libs                     0.1.2.2-r1             apk
 uwsgi                          2.0.25.1-r1            apk                      
 uwsgi-python3                  2.0.25.1-r1            apk                      
 watchdog                       6.0.0                  python                   
-wheel                          0.44.0                 python                   
+wheel                          0.45.0                 python                   
 xz-libs                        5.6.2-r0               apk                      
 zlib                           1.3.1-r1               apk                      
 zstd-libs                      1.5.6-r0               apk                      
