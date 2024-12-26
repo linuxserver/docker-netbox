@@ -18,7 +18,7 @@ ca-certificates-bundle         20240705-r0            apk
 catatonit                      0.2.0-r0               apk                      
 certifi                        2024.12.14             python                   
 cffi                           1.17.1                 python                   
-charset-normalizer             3.4.0                  python                   
+charset-normalizer             3.4.1                  python                   
 click                          8.1.8                  python                   
 colorama                       0.4.6                  python                   
 coreutils                      9.5-r1                 apk                      
