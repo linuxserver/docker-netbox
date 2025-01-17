@@ -28,10 +28,10 @@ coreutils-sha512sum            9.5-r2                 apk
 cryptography                   44.0.0                 python                   
 curl                           8.11.1-r0              apk                      
 defusedxml                     0.8.0rc2               python                   
-django                         5.1.4                  python                   
+django                         5.1.5                  python                   
 django-auth-ldap               5.1.0                  python                   
 django-cors-headers            4.6.0                  python                   
-django-debug-toolbar           4.4.6                  python                   
+django-debug-toolbar           5.0.1                  python                   
 django-filter                  24.3                   python                   
 django-graphiql-debug-toolbar  0.2.0                  python                   
 django-htmx                    1.21.0                 python                   
@@ -44,7 +44,7 @@ django-rich                    1.13.0                 python
 django-rq                      3.0.0                  python                   
 django-tables2                 2.7.5                  python                   
 django-taggit                  6.1.0                  python                   
-django-timezone-field          7.0                    python                   
+django-timezone-field          7.1                    python                   
 djangorestframework            3.15.2                 python                   
 drf-spectacular                0.28.0                 python                   
 drf-spectacular-sidecar        2024.12.1              python                   
@@ -131,8 +131,8 @@ postgresql16-client            16.6-r0                apk
 procps-ng                      4.0.4-r0               apk                      
 prometheus-client              0.21.1                 python                   
 promise                        2.3                    python                   
-psycopg                        3.2.3                  python                   
-psycopg-c                      3.2.3                  python                   
+psycopg                        3.2.4                  python                   
+psycopg-c                      3.2.4                  python                   
 psycopg-pool                   3.2.4                  python                   
 pyasn1                         0.6.1                  python                   
 pyasn1-modules                 0.4.1                  python                   
@@ -152,7 +152,7 @@ pyyaml                         6.0.2                  python
 pyyaml-env-tag                 0.1                    python                   
 readline                       8.2.10-r0              apk                      
 redis                          5.2.1                  python                   
-referencing                    0.35.1                 python                   
+referencing                    0.36.1                 python                   
 regex                          2024.11.6              python                   
 requests                       2.32.3                 python                   
 requests-oauthlib              2.0.0                  python                   
@@ -169,7 +169,7 @@ social-auth-core               4.5.4                  python
 sqlite-libs                    3.45.3-r1              apk                      
 sqlparse                       0.5.3                  python                   
 ssl_client                     1.36.1-r29             apk                      
-strawberry-graphql             0.256.1                python                   
+strawberry-graphql             0.258.0                python                   
 strawberry-graphql-django      0.52.0                 python                   
 svgwrite                       1.4.3                  python                   
 tablib                         3.7.0                  python                   
