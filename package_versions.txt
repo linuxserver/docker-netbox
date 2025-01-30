@@ -6,7 +6,7 @@ alpine-keys                    2.4-r1                 apk
 alpine-release                 3.20.5-r0              apk                      
 apk-tools                      2.14.4-r1              apk                      
 asgiref                        3.8.1                  python                   
-attrs                          24.3.0                 python                   
+attrs                          25.1.0                 python                   
 babel                          2.16.0                 python                   
 bash                           5.2.26-r0              apk                      
 brotli-libs                    1.1.0-r2               apk                      
@@ -55,7 +55,7 @@ ghp-import                     2.1.0                  python
 gmp                            6.3.0-r1               apk                      
 graphene                       3.4.3                  python                   
 graphene-django                3.2.2                  python                   
-graphql-core                   3.2.5                  python                   
+graphql-core                   3.2.6                  python                   
 graphql-relay                  3.2.0                  python                   
 gunicorn                       23.0.0                 python                   
 idna                           3.10                   python                   
@@ -124,7 +124,7 @@ paginate                       0.5.7                  python
 pathspec                       0.12.1                 python                   
 pcre2                          10.43-r0               apk                      
 pillow                         11.1.0                 python                   
-pip                            24.3.1                 python                   
+pip                            25.0                   python                   
 platformdirs                   4.3.6                  python                   
 postgresql-common              1.2-r1                 apk                      
 postgresql16-client            16.6-r0                apk                      
@@ -140,7 +140,7 @@ pyc                            3.12.8-r1              apk
 pycparser                      2.22                   python                   
 pygments                       2.19.1                 python                   
 pyjwt                          2.10.1                 python                   
-pymdown-extensions             10.14.1                python                   
+pymdown-extensions             10.14.2                python                   
 python-dateutil                2.9.0.post0            python                   
 python-ldap                    3.4.4                  python                   
 python3                        3.12.8-r1              apk                      
@@ -152,7 +152,7 @@ pyyaml                         6.0.2                  python
 pyyaml-env-tag                 0.1                    python                   
 readline                       8.2.10-r0              apk                      
 redis                          5.2.1                  python                   
-referencing                    0.36.1                 python                   
+referencing                    0.36.2                 python                   
 regex                          2024.11.6              python                   
 requests                       2.32.3                 python                   
 requests-oauthlib              2.0.0                  python                   
