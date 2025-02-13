@@ -41,7 +41,7 @@ Find us at:
 
 [Netbox](https://github.com/netbox-community/netbox) is an IP address management (IPAM) and data center infrastructure management (DCIM) tool. Initially conceived by the network engineering team at DigitalOcean, NetBox was developed specifically to address the needs of network and infrastructure engineers. It is intended to function as a domain-specific source of truth for network operations.
 
-[![netbox](https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.svg)](https://github.com/netbox-community/netbox)
+[![netbox](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/netbox-logo.png)](https://github.com/netbox-community/netbox)
 
 ## Supported Architectures
 
