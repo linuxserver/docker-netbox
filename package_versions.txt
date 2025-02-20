@@ -3,7 +3,7 @@ Simple Launcher                1.1.0.14               dotnet  (+5 duplicates)
 alpine-baselayout              3.6.5-r0               apk                      
 alpine-baselayout-data         3.6.5-r0               apk                      
 alpine-keys                    2.4-r1                 apk                      
-alpine-release                 3.20.5-r0              apk                      
+alpine-release                 3.20.6-r0              apk                      
 apk-tools                      2.14.4-r1              apk                      
 asgiref                        3.8.1                  python                   
 attrs                          25.1.0                 python                   
@@ -26,7 +26,7 @@ coreutils-env                  9.5-r2                 apk
 coreutils-fmt                  9.5-r2                 apk                      
 coreutils-sha512sum            9.5-r2                 apk                      
 cryptography                   44.0.1                 python                   
-curl                           8.12.0-r0              apk                      
+curl                           8.12.1-r0              apk                      
 defusedxml                     0.8.0rc2               python                   
 django                         5.1.5                  python                   
 django-auth-ldap               5.1.0                  python                   
@@ -71,7 +71,7 @@ libbsd                         0.12.2-r0              apk
 libbz2                         1.0.8-r6               apk                      
 libcap2                        2.70-r0                apk                      
 libcrypto3                     3.3.3-r0               apk                      
-libcurl                        8.12.0-r0              apk                      
+libcurl                        8.12.1-r0              apk                      
 libexpat                       2.6.4-r0               apk                      
 libffi                         3.4.6-r0               apk                      
 libgcc                         13.2.1_git20240309-r0  apk                      
@@ -108,8 +108,8 @@ mkdocs-material-extensions     1.3.1                  python
 mkdocstrings                   0.27.0                 python                   
 mkdocstrings-python-legacy     0.2.4                  python                   
 mpdecimal                      4.0.0-r0               apk                      
-musl                           1.2.5-r0               apk                      
-musl-utils                     1.2.5-r0               apk                      
+musl                           1.2.5-r1               apk                      
+musl-utils                     1.2.5-r1               apk                      
 ncurses-terminfo-base          6.4_p20240420-r2       apk                      
 netaddr                        1.3.0                  python                   
 netbox                         4.1.0                  npm                      
@@ -176,8 +176,8 @@ tablib                         3.8.0                  python
 text-unidecode                 1.3                    python                   
 tiff                           4.6.0t-r0              apk                      
 typing-extensions              4.12.2                 python                   
-tzdata                         2024b-r0               apk                      
 tzdata                         2025.1                 python                   
+tzdata                         2025a-r0               apk                      
 uritemplate                    4.1.1                  python                   
 urllib3                        2.3.0                  python                   
 utmps-libs                     0.1.2.2-r1             apk                      
