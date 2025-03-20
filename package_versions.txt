@@ -73,7 +73,7 @@ libbz2                         1.0.8-r6               apk
 libcap2                        2.70-r0                apk                      
 libcrypto3                     3.3.3-r0               apk                      
 libcurl                        8.12.1-r0              apk                      
-libexpat                       2.6.4-r0               apk                      
+libexpat                       2.7.0-r0               apk                      
 libffi                         3.4.6-r0               apk                      
 libgcc                         13.2.1_git20240309-r1  apk                      
 libidn2                        2.3.7-r0               apk                      
@@ -126,7 +126,7 @@ pathspec                       0.12.1                 python
 pcre2                          10.43-r0               apk                      
 pillow                         11.1.0                 python                   
 pip                            25.0.1                 python                   
-platformdirs                   4.3.6                  python                   
+platformdirs                   4.3.7                  python                   
 postgresql-common              1.2-r1                 apk                      
 postgresql16-client            16.8-r0                apk                      
 procps-ng                      4.0.4-r0               apk                      
