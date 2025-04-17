@@ -165,7 +165,7 @@ six                            1.17.0                 python
 skalibs                        2.14.1.1-r0            apk       
 social-auth-app-django         5.4.3                  python    
 social-auth-core               4.5.6                  python    
-sqlite-libs                    3.45.3-r1              apk       
+sqlite-libs                    3.45.3-r2              apk       
 sqlparse                       0.5.3                  python    
 ssl_client                     1.36.1-r29             apk       
 strawberry-graphql             0.263.2                python    
