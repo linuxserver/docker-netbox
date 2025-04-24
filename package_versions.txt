@@ -57,7 +57,7 @@ graphene                       3.4.3                  python
 graphene-django                3.2.3                  python    
 graphql-core                   3.2.6                  python    
 graphql-relay                  3.2.0                  python    
-griffe                         1.7.2                  python    
+griffe                         1.7.3                  python    
 gunicorn                       23.0.0                 python    
 idna                           3.10                   python    
 inflection                     0.5.1                  python    
@@ -65,7 +65,7 @@ jansson                        2.14-r4                apk
 jinja2                         3.1.6                  python    
 jq                             1.7.1-r0               apk       
 jsonschema                     4.23.0                 python    
-jsonschema-specifications      2024.10.1              python    
+jsonschema-specifications      2025.4.1               python    
 libacl                         2.3.2-r0               apk       
 libattr                        2.5.2-r0               apk       
 libbsd                         0.12.2-r0              apk       
