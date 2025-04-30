@@ -16,7 +16,7 @@ c-ares                         1.33.1-r0              apk
 ca-certificates                20241121-r1            apk       
 ca-certificates-bundle         20241121-r1            apk       
 catatonit                      0.2.0-r0               apk       
-certifi                        2025.1.31              python    
+certifi                        2025.4.26              python    
 cffi                           1.17.1                 python    
 charset-normalizer             3.4.1                  python    
 click                          8.1.8                  python    
@@ -31,7 +31,7 @@ defusedxml                     0.7.1                  python
 django                         5.1.8                  python    
 django-auth-ldap               5.1.0                  python    
 django-cors-headers            4.7.0                  python    
-django-debug-toolbar           5.1.0                  python    
+django-debug-toolbar           5.2.0                  python    
 django-filter                  25.1                   python    
 django-graphiql-debug-toolbar  0.2.0                  python    
 django-htmx                    1.23.0                 python    
@@ -41,7 +41,7 @@ django-pglocks                 1.0.4                  python
 django-prometheus              2.3.1                  python    
 django-redis                   5.4.0                  python    
 django-rich                    1.14.0                 python    
-django-rq                      3.0.0                  python    
+django-rq                      3.0.1                  python    
 django-tables2                 2.7.5                  python    
 django-taggit                  6.1.0                  python    
 django-timezone-field          7.1                    python    
@@ -125,15 +125,15 @@ paginate                       0.5.7                  python
 pathspec                       0.12.1                 python    
 pcre2                          10.43-r0               apk       
 pillow                         11.2.1                 python    
-pip                            25.0.1                 python    
+pip                            25.1                   python    
 platformdirs                   4.3.7                  python    
 postgresql-common              1.2-r1                 apk       
 postgresql16-client            16.8-r0                apk       
 procps-ng                      4.0.4-r0               apk       
 prometheus-client              0.21.1                 python    
 promise                        2.3                    python    
-psycopg                        3.2.6                  python    
-psycopg-c                      3.2.6                  python    
+psycopg                        3.2.7                  python    
+psycopg-c                      3.2.7                  python    
 psycopg-pool                   3.2.6                  python    
 pyasn1                         0.6.1                  python    
 pyasn1-modules                 0.4.2                  python    
@@ -141,7 +141,7 @@ pyc                            3.12.10-r0             apk
 pycparser                      2.22                   python    
 pygments                       2.19.1                 python    
 pyjwt                          2.10.1                 python    
-pymdown-extensions             10.14.3                python    
+pymdown-extensions             10.15                  python    
 python-dateutil                2.9.0.post0            python    
 python-ldap                    3.4.4                  python    
 python3                        3.12.10-r0             apk       
@@ -151,7 +151,7 @@ python3-pycache-pyc0           3.12.10-r0             apk
 pyyaml                         6.0.2                  python    
 pyyaml-env-tag                 0.1                    python    
 readline                       8.2.10-r0              apk       
-redis                          5.2.1                  python    
+redis                          6.0.0                  python    
 referencing                    0.36.2                 python    
 requests                       2.32.3                 python    
 requests-oauthlib              2.0.0                  python    
@@ -164,7 +164,7 @@ shadow                         4.15.1-r0              apk
 six                            1.17.0                 python    
 skalibs                        2.14.1.1-r0            apk       
 social-auth-app-django         5.4.3                  python    
-social-auth-core               4.5.6                  python    
+social-auth-core               4.6.1                  python    
 sqlite-libs                    3.45.3-r2              apk       
 sqlparse                       0.5.3                  python    
 ssl_client                     1.36.1-r29             apk       
