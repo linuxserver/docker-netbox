@@ -93,7 +93,7 @@ libssl3                        3.3.3-r0               apk
 libstdc++                      13.2.1_git20240309-r1  apk       
 libunistring                   1.2-r0                 apk       
 libwebp                        1.3.2-r0               apk       
-libxml2                        2.12.7-r2              apk       
+libxml2                        2.12.10-r0             apk       
 linux-pam                      1.6.0-r0               apk       
 lz4-libs                       1.9.4-r5               apk       
 mailcap                        2.1.54-r0              apk       
@@ -157,7 +157,7 @@ referencing                    0.36.2                 python
 requests                       2.32.3                 python    
 requests-oauthlib              2.0.0                  python    
 rich                           14.0.0                 python    
-rpds-py                        0.24.0                 python    
+rpds-py                        0.25.0                 python    
 rq                             2.3.3                  python    
 scanelf                        1.3.7-r2               apk       
 sgmllib3k                      1.0.0                  python    
