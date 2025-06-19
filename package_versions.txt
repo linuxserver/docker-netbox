@@ -17,7 +17,7 @@ c-ares                         1.33.1-r0              apk
 ca-certificates                20241121-r1            apk                      
 ca-certificates-bundle         20241121-r1            apk                      
 catatonit                      0.2.0-r0               apk                      
-certifi                        2025.4.26              python                   
+certifi                        2025.6.15              python                   
 cffi                           1.17.1                 python                   
 charset-normalizer             3.4.2                  python                   
 click                          8.2.1                  python                   
@@ -120,7 +120,7 @@ netbox-graphiql                4.3.0                  npm
 netcat-openbsd                 1.226-r0               apk                      
 nghttp2-libs                   1.62.1-r0              apk                      
 nh3                            0.2.21                 python                   
-oauthlib                       3.2.2                  python                   
+oauthlib                       3.3.0                  python                   
 oniguruma                      6.9.9-r0               apk                      
 packaging                      25.0                   python                   
 paginate                       0.5.7                  python                   
@@ -180,7 +180,7 @@ typing-extensions              4.14.0                 python
 tzdata                         2025.2                 python                   
 tzdata                         2025b-r0               apk                      
 uritemplate                    4.2.0                  python                   
-urllib3                        2.4.0                  python                   
+urllib3                        2.5.0                  python                   
 utmps-libs                     0.1.2.2-r1             apk                      
 uwsgi                          2.0.25.1-r1            apk                      
 uwsgi-python3                  2.0.25.1-r1            apk                      
