@@ -8,7 +8,7 @@ apk-tools                      2.14.4-r1              apk
 asgiref                        3.8.1                  python                   
 attrs                          25.3.0                 python                   
 babel                          2.17.0                 python                   
-backrefs                       5.8                    python                   
+backrefs                       5.9                    python                   
 bash                           5.2.26-r0              apk                      
 brotli-libs                    1.1.0-r2               apk                      
 busybox                        1.36.1-r29             apk                      
@@ -120,7 +120,7 @@ netbox-graphiql                4.3.0                  npm
 netcat-openbsd                 1.226-r0               apk                      
 nghttp2-libs                   1.62.1-r0              apk                      
 nh3                            0.2.21                 python                   
-oauthlib                       3.3.0                  python                   
+oauthlib                       3.3.1                  python                   
 oniguruma                      6.9.9-r0               apk                      
 packaging                      25.0                   python                   
 paginate                       0.5.7                  python                   
@@ -141,9 +141,9 @@ pyasn1                         0.6.1                  python
 pyasn1-modules                 0.4.2                  python                   
 pyc                            3.12.11-r0             apk                      
 pycparser                      2.22                   python                   
-pygments                       2.19.1                 python                   
+pygments                       2.19.2                 python                   
 pyjwt                          2.10.1                 python                   
-pymdown-extensions             10.15                  python                   
+pymdown-extensions             10.16                  python                   
 python-dateutil                2.9.0.post0            python                   
 python-ldap                    3.4.4                  python                   
 python3                        3.12.11-r0             apk                      
