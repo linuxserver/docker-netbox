@@ -5,7 +5,7 @@ alpine-baselayout-data         3.6.5-r0               apk
 alpine-keys                    2.4-r1                 apk                      
 alpine-release                 3.20.6-r0              apk                      
 apk-tools                      2.14.4-r1              apk                      
-asgiref                        3.9.0                  python                   
+asgiref                        3.9.1                  python                   
 attrs                          25.3.0                 python                   
 babel                          2.17.0                 python                   
 backrefs                       5.9                    python                   
@@ -17,7 +17,7 @@ c-ares                         1.33.1-r0              apk
 ca-certificates                20241121-r1            apk                      
 ca-certificates-bundle         20241121-r1            apk                      
 catatonit                      0.2.0-r0               apk                      
-certifi                        2025.6.15              python                   
+certifi                        2025.7.9               python                   
 cffi                           1.17.1                 python                   
 charset-normalizer             3.4.2                  python                   
 click                          8.2.1                  python                   
@@ -73,7 +73,7 @@ libattr                        2.5.2-r0               apk
 libbsd                         0.12.2-r0              apk                      
 libbz2                         1.0.8-r6               apk                      
 libcap2                        2.70-r0                apk                      
-libcrypto3                     3.3.3-r0               apk                      
+libcrypto3                     3.3.4-r0               apk                      
 libcurl                        8.12.1-r0              apk                      
 libexpat                       2.7.0-r0               apk                      
 libffi                         3.4.6-r0               apk                      
@@ -90,7 +90,7 @@ libproc2                       4.0.4-r0               apk
 libpsl                         0.21.5-r1              apk                      
 libsasl                        2.1.28-r6              apk                      
 libsharpyuv                    1.3.2-r0               apk                      
-libssl3                        3.3.3-r0               apk                      
+libssl3                        3.3.4-r0               apk                      
 libstdc++                      13.2.1_git20240309-r1  apk                      
 libunistring                   1.2-r0                 apk                      
 libwebp                        1.3.2-r0               apk                      
@@ -176,7 +176,7 @@ svgwrite                       1.4.3                  python
 tablib                         3.8.0                  python                   
 text-unidecode                 1.3                    python                   
 tiff                           4.6.0t-r0              apk                      
-typing-extensions              4.14.0                 python                   
+typing-extensions              4.14.1                 python                   
 tzdata                         2025.2                 python                   
 tzdata                         2025b-r0               apk                      
 uritemplate                    4.2.0                  python                   
