@@ -18,7 +18,7 @@ ca-certificates                20250619-r0            apk
 ca-certificates-bundle         20250619-r0            apk                      
 catatonit                      0.2.0-r0               apk                      
 certifi                        2025.8.3               python                   
-cffi                           1.17.1                 python                   
+cffi                           2.0.0                  python                   
 charset-normalizer             3.4.3                  python                   
 click                          8.2.1                  python                   
 colorama                       0.4.6                  python                   
@@ -60,7 +60,7 @@ graphene                       3.4.3                  python
 graphene-django                3.2.3                  python                   
 graphql-core                   3.2.6                  python                   
 graphql-relay                  3.2.0                  python                   
-griffe                         1.13.0                 python                   
+griffe                         1.14.0                 python                   
 gunicorn                       23.0.0                 python                   
 idna                           3.10                   python                   
 inflection                     0.5.1                  python                   
@@ -68,7 +68,7 @@ jansson                        2.14-r4                apk
 jinja2                         3.1.6                  python                   
 jq                             1.7.1-r0               apk                      
 jsonschema                     4.25.1                 python                   
-jsonschema-specifications      2025.4.1               python                   
+jsonschema-specifications      2025.9.1               python                   
 lia-web                        0.2.3                  python                   
 libacl                         2.3.2-r0               apk                      
 libattr                        2.5.2-r0               apk                      
@@ -142,7 +142,7 @@ psycopg-pool                   3.2.6                  python
 pyasn1                         0.6.1                  python                   
 pyasn1-modules                 0.4.2                  python                   
 pyc                            3.12.11-r0             apk                      
-pycparser                      2.22                   python                   
+pycparser                      2.23                   python                   
 pygments                       2.19.2                 python                   
 pyjwt                          2.10.1                 python                   
 pymdown-extensions             10.16.1                python                   
