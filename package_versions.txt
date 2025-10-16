@@ -27,7 +27,7 @@ coreutils-env                  9.5-r2                 apk
 coreutils-fmt                  9.5-r2                 apk                      
 coreutils-sha512sum            9.5-r2                 apk                      
 croniter                       6.0.0                  python                   
-cryptography                   46.0.2                 python                   
+cryptography                   46.0.3                 python                   
 curl                           8.14.1-r2              apk                      
 defusedxml                     0.7.1                  python                   
 django                         5.2.7                  python                   
