@@ -17,7 +17,7 @@ c-ares                         1.33.1-r0              apk
 ca-certificates                20250911-r0            apk                      
 ca-certificates-bundle         20250911-r0            apk                      
 catatonit                      0.2.0-r0               apk                      
-certifi                        2025.10.5              python                   
+certifi                        2025.11.12             python                   
 cffi                           2.0.0                  python                   
 charset-normalizer             3.4.4                  python                   
 click                          8.3.0                  python                   
@@ -145,7 +145,7 @@ pyc                            3.12.12-r0             apk
 pycparser                      2.23                   python                   
 pygments                       2.19.2                 python                   
 pyjwt                          2.10.1                 python                   
-pymdown-extensions             10.16.1                python                   
+pymdown-extensions             10.17.1                python                   
 python-dateutil                2.9.0.post0            python                   
 python-ldap                    3.4.5                  python                   
 python3                        3.12.12-r0             apk                      
