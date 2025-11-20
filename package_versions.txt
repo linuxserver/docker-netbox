@@ -5,7 +5,7 @@ alpine-baselayout-data         3.6.5-r0               apk
 alpine-keys                    2.4-r1                 apk                      
 alpine-release                 3.20.8-r0              apk                      
 apk-tools                      2.14.4-r1              apk                      
-asgiref                        3.10.0                 python                   
+asgiref                        3.11.0                 python                   
 attrs                          25.4.0                 python                   
 babel                          2.17.0                 python                   
 backrefs                       5.9                    python                   
@@ -20,7 +20,7 @@ catatonit                      0.2.0-r0               apk
 certifi                        2025.11.12             python                   
 cffi                           2.0.0                  python                   
 charset-normalizer             3.4.4                  python                   
-click                          8.3.0                  python                   
+click                          8.3.1                  python                   
 colorama                       0.4.6                  python                   
 coreutils                      9.5-r2                 apk                      
 coreutils-env                  9.5-r2                 apk                      
@@ -87,7 +87,7 @@ libldap                        2.6.8-r0               apk
 libmd                          1.1.0-r0               apk                      
 libncursesw                    6.4_p20240420-r2       apk                      
 libpanelw                      6.4_p20240420-r2       apk                      
-libpq                          16.10-r0               apk                      
+libpq                          16.11-r0               apk                      
 libproc2                       4.0.4-r0               apk                      
 libpsl                         0.21.5-r1              apk                      
 libsasl                        2.1.28-r6              apk                      
@@ -132,7 +132,7 @@ pillow                         12.0.0                 python
 pip                            25.3                   python                   
 platformdirs                   4.5.0                  python                   
 postgresql-common              1.2-r1                 apk                      
-postgresql16-client            16.10-r0               apk                      
+postgresql16-client            16.11-r0               apk                      
 procps-ng                      4.0.4-r0               apk                      
 prometheus-client              0.23.1                 python                   
 promise                        2.3                    python                   
@@ -156,12 +156,12 @@ pytz                           2025.2                 python
 pyyaml                         6.0.3                  python                   
 pyyaml-env-tag                 1.1                    python                   
 readline                       8.2.10-r0              apk                      
-redis                          7.0.1                  python                   
+redis                          7.1.0                  python                   
 referencing                    0.37.0                 python                   
 requests                       2.32.5                 python                   
 requests-oauthlib              2.0.0                  python                   
 rich                           14.2.0                 python                   
-rpds-py                        0.28.0                 python                   
+rpds-py                        0.29.0                 python                   
 rq                             2.6.0                  python                   
 scanelf                        1.3.7-r2               apk                      
 sgmllib3k                      1.0.0                  python                   
