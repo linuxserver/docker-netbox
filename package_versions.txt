@@ -145,7 +145,7 @@ pyc                            3.12.12-r0             apk
 pycparser                      2.23                   python                   
 pygments                       2.19.2                 python                   
 pyjwt                          2.10.1                 python                   
-pymdown-extensions             10.17.1                python                   
+pymdown-extensions             10.17.2                python                   
 python-dateutil                2.9.0.post0            python                   
 python-ldap                    3.4.5                  python                   
 python3                        3.12.12-r0             apk                      
