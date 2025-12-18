@@ -145,7 +145,7 @@ pyc                            3.12.12-r0             apk
 pycparser                      2.23                   python                   
 pygments                       2.19.2                 python                   
 pyjwt                          2.10.1                 python                   
-pymdown-extensions             10.18                  python                   
+pymdown-extensions             10.19.1                python                   
 python-dateutil                2.9.0.post0            python                   
 python-ldap                    3.4.5                  python                   
 python3                        3.12.12-r0             apk                      
@@ -182,9 +182,9 @@ text-unidecode                 1.3                    python
 tiff                           4.6.0t-r0              apk                      
 typing-extensions              4.15.0                 python                   
 tzdata                         2025.2                 python                   
-tzdata                         2025b-r0               apk                      
+tzdata                         2025c-r0               apk                      
 uritemplate                    4.2.0                  python                   
-urllib3                        2.6.1                  python                   
+urllib3                        2.6.2                  python                   
 utmps-libs                     0.1.2.2-r1             apk                      
 uwsgi                          2.0.25.1-r1            apk                      
 uwsgi-python3                  2.0.25.1-r1            apk                      
