@@ -12,13 +12,15 @@ ALLOWED_HOSTS = ['{{ALLOWED_HOST}}']
 
 # PostgreSQL database configuration. See the Django documentation for a complete list of available parameters:
 #   https://docs.djangoproject.com/en/stable/ref/settings/#databases
-DATABASE = {
-    'NAME': '{{DB_NAME}}',         # Database name
-    'USER': '{{DB_USER}}',               # PostgreSQL username
-    'PASSWORD': '{{DB_PASSWORD}}',           # PostgreSQL password
-    'HOST': '{{DB_HOST}}',      # Database server
-    'PORT': '{{DB_PORT}}',               # Database port (leave blank for default)
-    'CONN_MAX_AGE': 300,      # Max database connection age
+DATABASES = {
+    'default': {
+        'NAME': '{{DB_NAME}}',         # Database name
+        'USER': '{{DB_USER}}',               # PostgreSQL username
+        'PASSWORD': '{{DB_PASSWORD}}',           # PostgreSQL password
+        'HOST': '{{DB_HOST}}',      # Database server
+        'PORT': '{{DB_PORT}}',               # Database port (leave blank for default)
+        'CONN_MAX_AGE': 300,      # Max database connection age
+    },
 }
 
 # Redis database settings. Redis is used for caching and for queuing background tasks such as webhook events. A separate
@@ -31,6 +33,7 @@ REDIS = {
         # Comment out `HOST` and `PORT` lines and uncomment the following if using Redis Sentinel
         # 'SENTINELS': [('mysentinel.redis.example.com', 6379)],
         # 'SENTINEL_SERVICE': 'netbox',
+        'USERNAME': '{{REDIS_USERNAME}}',
         'PASSWORD': '{{REDIS_PASSWORD}}',
         'DATABASE': {{REDIS_DB_TASK}},
         'SSL': False,
@@ -44,6 +47,7 @@ REDIS = {
         # Comment out `HOST` and `PORT` lines and uncomment the following if using Redis Sentinel
         # 'SENTINELS': [('mysentinel.redis.example.com', 6379)],
         # 'SENTINEL_SERVICE': 'netbox',
+        'USERNAME': '{{REDIS_USERNAME}}',
         'PASSWORD': '{{REDIS_PASSWORD}}',
         'DATABASE': {{REDIS_DB_CACHE}},
         'SSL': False,
@@ -101,6 +105,10 @@ CORS_ORIGIN_WHITELIST = [
 ]
 CORS_ORIGIN_REGEX_WHITELIST = [
     # r'^(https?://)?(\w+\.)?example\.com$',
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    {{CSRF_TRUSTED_ORIGINS}}
 ]
 
 # Specify any custom validators here, as a mapping of model to a list of validators classes. Validators should be

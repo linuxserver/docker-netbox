@@ -8,6 +8,7 @@ mkdir -p \
 declare -A NETBOX_CONF
 NETBOX_CONF[ALLOWED_HOST]=${ALLOWED_HOST:-netbox.example.com}
 NETBOX_CONF[BASE_PATH]=${BASE_PATH:-}
+NETBOX_CONF[CSRF_TRUSTED_ORIGINS]=${CSRF_TRUSTED_ORIGINS:-}
 NETBOX_CONF[DB_NAME]=${DB_NAME:-netbox}
 NETBOX_CONF[DB_USER]=${DB_USER:-root}
 NETBOX_CONF[DB_PASSWORD]=${DB_PASSWORD:-}
@@ -15,6 +16,7 @@ NETBOX_CONF[DB_HOST]=${DB_HOST:-postgres}
 NETBOX_CONF[DB_PORT]=${DB_PORT:-}
 NETBOX_CONF[REDIS_HOST]=${REDIS_HOST:-redis}
 NETBOX_CONF[REDIS_PORT]=${REDIS_PORT:-6379}
+NETBOX_CONF[REDIS_USERNAME]=${REDIS_USERNAME:-}
 NETBOX_CONF[REDIS_PASSWORD]=${REDIS_PASSWORD:-}
 NETBOX_CONF[REDIS_DB_TASK]=${REDIS_DB_TASK:-0}
 NETBOX_CONF[REDIS_DB_CACHE]=${REDIS_DB_CACHE:-1}
@@ -38,7 +40,7 @@ if [[ ! -f "/config/configuration.py" ]]; then
     done
 fi
 
-if [[ ! -e "/config/media" ]]; then
+if [[ ! -e "/config/media" ]] && [[ -e "/app/netbox/netbox/media" ]]; then
     mv /app/netbox/netbox/media /config/media
 fi
 
