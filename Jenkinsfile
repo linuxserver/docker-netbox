@@ -31,7 +31,7 @@ pipeline {
     PR_DOCKERHUB_IMAGE = 'lspipepr/netbox'
     DIST_IMAGE = 'alpine'
     MULTIARCH='true'
-    CI='true'
+    CI='false'
     CI_WEB='false'
     CI_PORT='8000'
     CI_SSL='false'
