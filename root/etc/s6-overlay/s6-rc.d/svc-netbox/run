@@ -2,5 +2,5 @@
 # shellcheck shell=bash
 
 exec \
-    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 8000" \
+    s6-notifyoncheck -d -n 30 -w 5000 \
         cd /app/netbox/netbox s6-setuidgid abc /usr/sbin/uwsgi uwsgi.ini

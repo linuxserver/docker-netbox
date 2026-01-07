@@ -1,0 +1,8 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+if [[ $(curl -Lo /dev/null -H "Host: ${ALLOWED_HOST}" -s -w "%{http_code}\n" http://localhost:8000) = "200" ]]; then
+    exit 0
+else
+    exit 1
+fi
