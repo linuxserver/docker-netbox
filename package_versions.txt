@@ -127,7 +127,7 @@ oauthlib                       3.3.1             python
 oniguruma                      6.9.10-r0         apk                      
 packaging                      25.0              python                   
 paginate                       0.5.7             python                   
-pathspec                       1.0.1             python                   
+pathspec                       1.0.2             python                   
 pcre2                          10.47-r0          apk                      
 pillow                         12.1.0            python                   
 pip                            25.3              python                   
@@ -185,7 +185,7 @@ typing-extensions              4.15.0            python
 tzdata                         2025.3            python                   
 tzdata                         2025c-r0          apk                      
 uritemplate                    4.2.0             python                   
-urllib3                        2.6.2             python                   
+urllib3                        2.6.3             python                   
 utmps-libs                     0.1.3.1-r0        apk                      
 uwsgi                          2.0.31-r0         apk                      
 uwsgi-python3                  2.0.31-r0         apk                      
