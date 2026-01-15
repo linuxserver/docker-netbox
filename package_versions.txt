@@ -28,7 +28,7 @@ coreutils-env                  9.8-r1            apk
 coreutils-fmt                  9.8-r1            apk                      
 coreutils-sha512sum            9.8-r1            apk                      
 croniter                       6.0.0             python                   
-cross-web                      0.4.0             python                   
+cross-web                      0.4.1             python                   
 cryptography                   46.0.3            python                   
 curl                           8.17.0-r1         apk                      
 defusedxml                     0.7.1             python                   
@@ -127,7 +127,7 @@ oauthlib                       3.3.1             python
 oniguruma                      6.9.10-r0         apk                      
 packaging                      25.0              python                   
 paginate                       0.5.7             python                   
-pathspec                       1.0.2             python                   
+pathspec                       1.0.3             python                   
 pcre2                          10.47-r0          apk                      
 pillow                         12.1.0            python                   
 pip                            25.3              python                   
@@ -135,7 +135,7 @@ platformdirs                   4.5.1             python
 postgresql-common              1.2-r2            apk                      
 postgresql18-client            18.1-r0           apk                      
 procps-ng                      4.0.5-r0          apk                      
-prometheus-client              0.23.1            python                   
+prometheus-client              0.24.1            python                   
 promise                        2.3               python                   
 psycopg                        3.3.2             python                   
 psycopg-c                      3.3.2             python                   
@@ -172,7 +172,7 @@ skalibs-libs                   2.14.4.0-r0       apk
 social-auth-app-django         5.7.0             python                   
 social-auth-core               4.8.3             python                   
 sorl-thumbnail                 12.11.0           python                   
-sqlite-libs                    3.51.1-r0         apk                      
+sqlite-libs                    3.51.2-r0         apk                      
 sqlparse                       0.5.5             python                   
 ssl_client                     1.37.0-r30        apk                      
 strawberry-graphql             0.288.2           python                   
