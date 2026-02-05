@@ -77,7 +77,7 @@ libbz2                         1.0.8-r6          apk
 libcap2                        2.77-r0           apk                      
 libcrypto3                     3.5.5-r0          apk                      
 libcurl                        8.17.0-r1         apk                      
-libexpat                       2.7.3-r0          apk                      
+libexpat                       2.7.4-r0          apk                      
 libffi                         3.5.2-r0          apk                      
 libgcc                         15.2.0-r2         apk                      
 libidn2                        2.3.8-r0          apk                      
@@ -130,7 +130,7 @@ paginate                       0.5.7             python
 pathspec                       1.0.4             python                   
 pcre2                          10.47-r0          apk                      
 pillow                         12.1.0            python                   
-pip                            26.0              python                   
+pip                            26.0.1            python                   
 platformdirs                   4.5.1             python                   
 postgresql-common              1.2-r2            apk                      
 postgresql18-client            18.1-r0           apk                      
