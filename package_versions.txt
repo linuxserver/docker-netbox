@@ -20,7 +20,7 @@ ca-certificates-bundle         20251003-r0       apk
 catatonit                      0.2.1-r0          apk                      
 certifi                        2026.2.25         python                   
 cffi                           2.0.0             python                   
-charset-normalizer             3.4.4             python                   
+charset-normalizer             3.4.5             python                   
 click                          8.3.1             python                   
 colorama                       0.4.6             python                   
 coreutils                      9.8-r1            apk                      
@@ -59,7 +59,7 @@ gdbm                           1.26-r0           apk
 ghp-import                     2.1.0             python                   
 graphene                       3.4.3             python                   
 graphene-django                3.2.3             python                   
-graphql-core                   3.2.7             python                   
+graphql-core                   3.2.8             python                   
 graphql-relay                  3.2.0             python                   
 griffelib                      2.0.0             python                   
 gunicorn                       25.1.0            python                   
@@ -87,7 +87,7 @@ libldap                        2.6.10-r0         apk
 libmd                          1.1.0-r0          apk                      
 libncursesw                    6.5_p20251123-r0  apk                      
 libpanelw                      6.5_p20251123-r0  apk                      
-libpq                          18.2-r0           apk                      
+libpq                          18.3-r0           apk                      
 libproc2                       4.0.5-r0          apk                      
 libpsl                         0.21.5-r3         apk                      
 libsasl                        2.1.28-r9         apk                      
@@ -107,7 +107,7 @@ mdurl                          0.1.2             python
 mergedeep                      1.3.4             python                   
 mkdocs                         1.6.1             python                   
 mkdocs-autorefs                1.4.4             python                   
-mkdocs-get-deps                0.2.0             python                   
+mkdocs-get-deps                0.2.2             python                   
 mkdocs-material                9.7.3             python                   
 mkdocs-material-extensions     1.3.1             python                   
 mkdocstrings                   1.0.3             python                   
@@ -131,9 +131,9 @@ pathspec                       1.0.4             python
 pcre2                          10.47-r0          apk                      
 pillow                         12.1.1            python                   
 pip                            26.0.1            python                   
-platformdirs                   4.9.2             python                   
+platformdirs                   4.9.4             python                   
 postgresql-common              1.2-r2            apk                      
-postgresql18-client            18.2-r0           apk                      
+postgresql18-client            18.3-r0           apk                      
 procps-ng                      4.0.5-r0          apk                      
 prometheus-client              0.24.1            python                   
 promise                        2.3               python                   
@@ -157,7 +157,7 @@ pytz                           2026.1.post1      python
 pyyaml                         6.0.3             python                   
 pyyaml-env-tag                 1.1               python                   
 readline                       8.3.1-r0          apk                      
-redis                          7.2.1             python                   
+redis                          7.3.0             python                   
 referencing                    0.37.0            python                   
 requests                       2.32.5            python                   
 requests-oauthlib              2.0.0             python                   
@@ -183,7 +183,7 @@ text-unidecode                 1.3               python
 tiff                           4.7.1-r0          apk                      
 typing-extensions              4.15.0            python                   
 tzdata                         2025.3            python                   
-tzdata                         2025c-r0          apk                      
+tzdata                         2026a-r0          apk                      
 uritemplate                    4.2.0             python                   
 urllib3                        2.6.3             python                   
 utmps-libs                     0.1.3.1-r0        apk                      
@@ -192,5 +192,5 @@ uwsgi-python3                  2.0.31-r0         apk
 watchdog                       6.0.0             python                   
 wheel                          0.46.3            python                   
 xz-libs                        5.8.2-r0          apk                      
-zlib                           1.3.1-r2          apk                      
+zlib                           1.3.2-r0          apk                      
 zstd-libs                      1.5.7-r2          apk                      
