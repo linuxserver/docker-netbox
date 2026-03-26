@@ -29,7 +29,7 @@ coreutils-fmt                  9.8-r1            apk
 coreutils-sha512sum            9.8-r1            apk                      
 croniter                       6.2.2             python                   
 cross-web                      0.4.1             python                   
-cryptography                   46.0.5            python                   
+cryptography                   46.0.6            python                   
 curl                           8.17.0-r1         apk                      
 defusedxml                     0.7.1             python                   
 django                         5.2.12            python                   
@@ -61,7 +61,7 @@ graphene                       3.4.3             python
 graphene-django                3.2.3             python                   
 graphql-core                   3.2.8             python                   
 graphql-relay                  3.2.0             python                   
-griffelib                      2.0.0             python                   
+griffelib                      2.0.1             python                   
 gunicorn                       25.1.0            python                   
 idna                           3.11              python                   
 inflection                     0.5.1             python                   
@@ -156,7 +156,7 @@ python3-pycache-pyc0           3.12.12-r0        apk
 pyyaml                         6.0.3             python                   
 pyyaml-env-tag                 1.1               python                   
 readline                       8.3.1-r0          apk                      
-redis                          7.3.0             python                   
+redis                          7.4.0             python                   
 referencing                    0.37.0            python                   
 requests                       2.32.5            python                   
 requests-oauthlib              2.0.0             python                   
