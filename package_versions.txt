@@ -35,7 +35,7 @@ defusedxml                     0.7.1             python
 django                         5.2.12            python                   
 django-auth-ldap               5.3.0             python                   
 django-cors-headers            4.9.0             python                   
-django-debug-toolbar           6.2.0             python                   
+django-debug-toolbar           6.3.0             python                   
 django-filter                  25.2              python                   
 django-graphiql-debug-toolbar  0.2.0             python                   
 django-htmx                    1.27.0            python                   
@@ -45,14 +45,14 @@ django-pglocks                 1.0.4             python
 django-prometheus              2.4.1             python                   
 django-redis                   6.0.0             python                   
 django-rich                    2.2.0             python                   
-django-rq                      3.2.2             python                   
+django-rq                      4.0.1             python                   
 django-storages                1.14.6            python                   
 django-tables2                 2.8.0             python                   
 django-taggit                  6.1.0             python                   
 django-timezone-field          7.2.1             python                   
 djangorestframework            3.16.1            python                   
 drf-spectacular                0.29.0            python                   
-drf-spectacular-sidecar        2026.3.1          python                   
+drf-spectacular-sidecar        2026.4.1          python                   
 feedparser                     6.0.12            python                   
 findutils                      4.10.0-r0         apk                      
 gdbm                           1.26-r0           apk                      
@@ -129,7 +129,7 @@ packaging                      26.0              python
 paginate                       0.5.7             python                   
 pathspec                       1.0.4             python                   
 pcre2                          10.47-r0          apk                      
-pillow                         12.1.1            python                   
+pillow                         12.2.0            python                   
 pip                            26.0.1            python                   
 platformdirs                   4.9.4             python                   
 postgresql-common              1.2-r2            apk                      
@@ -181,7 +181,7 @@ tablib                         3.9.0             python
 text-unidecode                 1.3               python                   
 tiff                           4.7.1-r0          apk                      
 typing-extensions              4.15.0            python                   
-tzdata                         2025.3            python                   
+tzdata                         2026.1            python                   
 tzdata                         2026a-r0          apk                      
 uritemplate                    4.2.0             python                   
 urllib3                        2.6.3             python                   
