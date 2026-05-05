@@ -29,10 +29,11 @@ coreutils-fmt                  9.8-r1            apk
 coreutils-sha512sum            9.8-r1            apk                      
 croniter                       6.2.2             python                   
 cross-web                      0.6.0             python                   
-cryptography                   47.0.0            python                   
+cryptography                   48.0.0            python                   
 curl                           8.17.0-r1         apk                      
+deepmerge                      2.0               python                   
 defusedxml                     0.7.1             python                   
-django                         5.2.13            python                   
+django                         6.0.4             python                   
 django-auth-ldap               5.3.0             python                   
 django-cors-headers            4.9.0             python                   
 django-debug-toolbar           6.3.0             python                   
@@ -42,7 +43,7 @@ django-htmx                    1.27.0            python
 django-js-asset                3.1.2             python                   
 django-mptt                    0.18.0            python                   
 django-pglocks                 1.0.4             python                   
-django-prometheus              2.4.1             python                   
+django-prometheus              2.4.0             python                   
 django-redis                   6.0.0             python                   
 django-rich                    2.2.0             python                   
 django-rq                      4.1.0             python                   
@@ -50,7 +51,7 @@ django-storages                1.14.6            python
 django-tables2                 2.8.0             python                   
 django-taggit                  6.1.0             python                   
 django-timezone-field          7.2.1             python                   
-djangorestframework            3.16.1            python                   
+djangorestframework            3.17.1            python                   
 drf-spectacular                0.29.0            python                   
 drf-spectacular-sidecar        2026.5.1          python                   
 feedparser                     6.0.12            python                   
@@ -130,7 +131,7 @@ paginate                       0.5.7             python
 pathspec                       1.1.1             python                   
 pcre2                          10.47-r0          apk                      
 pillow                         12.2.0            python                   
-pip                            26.1              python                   
+pip                            26.1.1            python                   
 platformdirs                   4.9.6             python                   
 postgresql-common              1.2-r2            apk                      
 postgresql18-client            18.3-r0           apk                      
@@ -180,6 +181,7 @@ svgwrite                       1.4.3             python
 tablib                         3.9.0             python                   
 text-unidecode                 1.3               python                   
 tiff                           4.7.1-r0          apk                      
+tomli                          2.4.1             python                   
 typing-extensions              4.15.0            python                   
 tzdata                         2026.2            python                   
 tzdata                         2026b-r0          apk                      
@@ -191,5 +193,6 @@ uwsgi-python3                  2.0.31-r0         apk
 watchdog                       6.0.0             python                   
 wheel                          0.47.0            python                   
 xz-libs                        5.8.3-r0          apk                      
+zensical                       0.0.37            python                   
 zlib                           1.3.2-r0          apk                      
 zstd-libs                      1.5.7-r2          apk                      
