@@ -64,7 +64,7 @@ graphql-core                   3.2.8             python
 graphql-relay                  3.2.0             python                   
 griffelib                      2.0.2             python                   
 gunicorn                       25.3.0            python                   
-idna                           3.13              python                   
+idna                           3.15              python                   
 inflection                     0.5.1             python                   
 jansson                        2.14.1-r0         apk                      
 jinja2                         3.1.6             python                   
@@ -147,9 +147,9 @@ pyc                            3.12.13-r0        apk
 pycparser                      3.0               python                   
 pygments                       2.20.0            python                   
 pyjwt                          2.12.1            python                   
-pymdown-extensions             10.21.2           python                   
+pymdown-extensions             10.21.3           python                   
 python-dateutil                2.9.0.post0       python                   
-python-ldap                    3.4.5             python                   
+python-ldap                    3.4.6             python                   
 python3                        3.12.13-r0        apk                      
 python3-openid                 3.2.0             python                   
 python3-pyc                    3.12.13-r0        apk                      
