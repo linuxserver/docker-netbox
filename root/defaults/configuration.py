@@ -63,6 +63,9 @@ REDIS = {
 # https://docs.djangoproject.com/en/stable/ref/settings/#std:setting-SECRET_KEY
 SECRET_KEY = '{{SECRET_KEY}}'
 
+# List of API token peppers used to hash v2 API tokens. Keep this set in sync across all NetBox instances using the same
+# token data.
+API_TOKEN_PEPPERS = {{API_TOKEN_PEPPERS}}
 
 #########################
 #                       #
