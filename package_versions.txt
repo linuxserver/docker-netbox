@@ -27,7 +27,7 @@ coreutils                      9.8-r1            apk
 coreutils-env                  9.8-r1            apk                      
 coreutils-fmt                  9.8-r1            apk                      
 coreutils-sha512sum            9.8-r1            apk                      
-croniter                       6.2.2             python                   
+croniter                       6.2.3             python                   
 cross-web                      0.7.0             python                   
 cryptography                   49.0.0            python                   
 curl                           8.19.0-r0         apk                      
@@ -181,7 +181,7 @@ tablib                         3.9.0             python
 text-unidecode                 1.3               python                   
 tiff                           4.7.1-r0          apk                      
 tomli                          2.4.1             python                   
-typing-extensions              4.15.0            python                   
+typing-extensions              4.16.0            python                   
 tzdata                         2026.2            python                   
 tzdata                         2026b-r0          apk                      
 uritemplate                    4.2.0             python                   
