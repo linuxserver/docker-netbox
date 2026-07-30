@@ -131,7 +131,7 @@ paginate                       0.5.7             python
 pathspec                       1.1.1             python                   
 pcre2                          10.47-r0          apk                      
 pillow                         12.3.0            python                   
-pip                            26.1.2            python                   
+pip                            26.2              python                   
 platformdirs                   4.11.0            python                   
 postgresql-common              1.2-r2            apk                      
 postgresql18-client            18.4-r0           apk                      
