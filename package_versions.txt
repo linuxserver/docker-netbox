@@ -33,13 +33,13 @@ cryptography                   50.0.0            python
 curl                           8.20.0-r0         apk                      
 deepmerge                      2.1.0             python                   
 defusedxml                     0.7.1             python                   
-django                         6.0.7             python                   
+django                         6.0.8             python                   
 django-auth-ldap               5.3.0             python                   
 django-cors-headers            4.9.0             python                   
-django-debug-toolbar           7.0.0             python                   
+django-debug-toolbar           7.1.0             python                   
 django-filter                  26.1              python                   
 django-graphiql-debug-toolbar  0.2.0             python                   
-django-htmx                    1.28.0            python                   
+django-htmx                    1.29.0            python                   
 django-js-asset                4.0.1             python                   
 django-mptt                    0.18.0            python                   
 django-pglocks                 1.0.4             python                   
@@ -53,7 +53,7 @@ django-taggit                  6.1.0             python
 django-timezone-field          7.2.2             python                   
 djangorestframework            3.17.1            python                   
 drf-spectacular                0.30.0            python                   
-drf-spectacular-sidecar        2026.7.1          python                   
+drf-spectacular-sidecar        2026.8.1          python                   
 feedparser                     6.0.14            python                   
 feedparser-sgmllib             2.1.0             python                   
 findutils                      4.10.0-r0         apk                      
@@ -102,7 +102,7 @@ libxml2                        2.13.9-r1         apk
 linux-pam                      1.7.1-r2          apk                      
 lz4-libs                       1.10.0-r0         apk                      
 mailcap                        2.1.54-r0         apk                      
-markdown                       3.10.2            python                   
+markdown                       3.10.3            python                   
 markdown-it-py                 4.2.0             python                   
 markupsafe                     3.0.3             python                   
 mdurl                          0.1.2             python                   
@@ -132,7 +132,7 @@ pathspec                       1.1.1             python
 pcre2                          10.47-r0          apk                      
 pillow                         12.3.0            python                   
 pip                            26.2.1            python                   
-platformdirs                   4.11.0            python                   
+platformdirs                   4.11.2            python                   
 postgresql-common              1.2-r2            apk                      
 postgresql18-client            18.4-r0           apk                      
 procps-ng                      4.0.5-r0          apk                      
@@ -174,10 +174,10 @@ sorl-thumbnail                 13.0.0            python
 sqlite-libs                    3.51.2-r0         apk                      
 sqlparse                       0.5.5             python                   
 ssl_client                     1.37.0-r30        apk                      
-strawberry-graphql             0.323.2           python                   
-strawberry-graphql-django      0.86.5            python                   
+strawberry-graphql             0.324.0           python                   
+strawberry-graphql-django      0.87.0            python                   
 svgwrite                       1.4.3             python                   
-tablib                         3.9.0             python                   
+tablib                         3.10.0            python                   
 text-unidecode                 1.3               python                   
 tiff                           4.7.1-r0          apk                      
 tomli                          2.4.1             python                   
@@ -192,6 +192,6 @@ uwsgi-python3                  2.0.31-r0         apk
 watchdog                       6.0.0             python                   
 wheel                          0.47.0            python                   
 xz-libs                        5.8.3-r0          apk                      
-zensical                       0.0.52            python                   
+zensical                       0.0.53            python                   
 zlib                           1.3.2-r0          apk                      
 zstd-libs                      1.5.7-r2          apk                      
