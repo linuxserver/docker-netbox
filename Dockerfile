@@ -35,7 +35,7 @@ RUN \
   mkdir -p /app/netbox && \
   if [ -z ${NETBOX_RELEASE+x} ]; then \
     NETBOX_RELEASE=$(curl -sX GET "https://api.github.com/repos/netbox-community/netbox/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | jq -r '.tag_name'); \
   fi && \
   curl -o \
   /tmp/netbox.tar.gz -L \
