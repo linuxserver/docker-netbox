@@ -31,7 +31,7 @@ croniter                       6.2.4             python
 cross-web                      0.7.0             python                   
 cryptography                   50.0.0            python                   
 curl                           8.20.0-r0         apk                      
-deepmerge                      2.1.0             python                   
+deepmerge                      3.0               python                   
 defusedxml                     0.7.1             python                   
 django                         6.0.8             python                   
 django-auth-ldap               5.3.0             python                   
@@ -40,7 +40,7 @@ django-debug-toolbar           7.1.0             python
 django-filter                  26.1              python                   
 django-graphiql-debug-toolbar  0.2.0             python                   
 django-htmx                    1.29.0            python                   
-django-js-asset                4.0.1             python                   
+django-js-asset                4.0.2             python                   
 django-mptt                    0.18.0            python                   
 django-pglocks                 1.0.4             python                   
 django-prometheus              2.4.0             python                   
@@ -65,7 +65,7 @@ graphql-core                   3.2.11            python
 graphql-relay                  3.2.0             python                   
 griffelib                      2.2.0             python                   
 gunicorn                       26.0.0            python                   
-idna                           3.18              python                   
+idna                           3.19              python                   
 inflection                     0.5.1             python                   
 jansson                        2.14.1-r0         apk                      
 jinja2                         3.1.6             python                   
@@ -79,7 +79,7 @@ libbz2                         1.0.8-r6          apk
 libcap2                        2.78-r0           apk                      
 libcrypto3                     3.5.7-r0          apk                      
 libcurl                        8.20.0-r0         apk                      
-libexpat                       2.8.2-r0          apk                      
+libexpat                       2.8.3-r0          apk                      
 libffi                         3.5.2-r0          apk                      
 libgcc                         15.2.0-r2         apk                      
 libidn2                        2.3.8-r0          apk                      
@@ -145,7 +145,7 @@ pyasn1                         0.6.4             python
 pyasn1-modules                 0.4.2             python                   
 pyc                            3.12.14-r0        apk                      
 pycparser                      3.0               python                   
-pygments                       2.20.0            python                   
+pygments                       2.21.0            python                   
 pyjwt                          2.12.1            python                   
 pymdown-extensions             11.0.1            python                   
 python-dateutil                2.9.0.post0       python                   
@@ -171,7 +171,7 @@ skalibs-libs                   2.14.4.0-r0       apk
 social-auth-app-django         5.9.0             python                   
 social-auth-core               4.8.7             python                   
 sorl-thumbnail                 13.0.0            python                   
-sqlite-libs                    3.51.2-r0         apk                      
+sqlite-libs                    3.53.4-r0         apk                      
 sqlparse                       0.6.0             python                   
 ssl_client                     1.37.0-r30        apk                      
 strawberry-graphql             0.324.0           python                   
