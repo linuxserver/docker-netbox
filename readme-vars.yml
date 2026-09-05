@@ -37,6 +37,7 @@ opt_param_usage_include_env: true
 opt_param_env_vars:
   - {env_var: "BASE_PATH", env_value: "", desc: "The path you will use to access the app (i.e., /netbox, default: none)"}
   - {env_var: "CSRF_TRUSTED_ORIGINS", env_value: "", desc: "List of comma-separated, single quoted, trusted origins. Must include protocol, and port if applicable (default: [])"}
+  - {env_var: "API_TOKEN_PEPPERS", env_value: "", desc: "Mapping of token pepper IDs to pepper strings for API token hashing (default: {})"}
   - {env_var: "REMOTE_AUTH_ENABLED", env_value: "", desc: "Enable remote authentication (default: False)"}
   - {env_var: "REMOTE_AUTH_BACKEND", env_value: "", desc: "Python path to the custom Django authentication backend to use for external user authentication (default: netbox.authentication.RemoteUserBackend)"}
   - {env_var: "REMOTE_AUTH_HEADER", env_value: "", desc: "Name of the HTTP header which informs NetBox of the currently authenticated user. (default: HTTP_REMOTE_USER)"}
@@ -96,6 +97,7 @@ init_diagram: |
   "netbox:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "16.06.26:", desc: "Add API_TOKEN_PEPPERS env settings."}
   - {date: "05.01.26:", desc: "Rebase to Alpine 3.23. Add CSRF_TRUSTED_ORIGINS env settings. Drop support for environments with explicitly disabled IPv6."}
   - {date: "26.08.24:", desc: "Restructure init to allow for plugins as mods."}
   - {date: "16.07.24:", desc: "Add required packages for LDAP support."}
