@@ -16,7 +16,7 @@ busybox                     1.37.0-r30        apk
 busybox-binsh               1.37.0-r30        apk                      
 c-ares                      1.34.8-r0         apk                      
 ca-certificates             20260611-r0       apk                      
-ca-certificates-bundle      20260611-r0       apk                      
+ca-certificates-bundle      20260909-r0       apk                      
 catatonit                   0.2.1-r0          apk                      
 certifi                     2026.7.22         python                   
 cffi                        2.1.1             python                   
@@ -61,7 +61,7 @@ ghp-import                  2.1.0             python
 graphql-core                3.2.12            python                   
 griffelib                   2.3.0             python                   
 gunicorn                    26.2.0            python                   
-idna                        3.19              python                   
+idna                        3.20              python                   
 inflection                  0.5.1             python                   
 jansson                     2.14.1-r0         apk                      
 jinja2                      3.1.6             python                   
@@ -128,7 +128,7 @@ pathspec                    1.1.1             python
 pcre2                       10.48-r0          apk                      
 pillow                      12.3.0            python                   
 pip                         26.2.1            python                   
-platformdirs                4.11.8            python                   
+platformdirs                4.11.9            python                   
 postgresql-common           1.2-r2            apk                      
 postgresql18-client         18.6-r0           apk                      
 procps-ng                   4.0.5-r0          apk                      
@@ -142,9 +142,9 @@ pyc                         3.12.14-r0        apk
 pycparser                   3.0               python                   
 pygments                    2.21.0            python                   
 pyjwt                       2.14.0            python                   
-pymdown-extensions          12.0              python                   
+pymdown-extensions          12.0.1            python                   
 python-dateutil             2.9.0.post0       python                   
-python-ldap                 3.4.7             python                   
+python-ldap                 3.4.8             python                   
 python3                     3.12.14-r0        apk                      
 python3-openid              3.2.0             python                   
 python3-pyc                 3.12.14-r0        apk                      
