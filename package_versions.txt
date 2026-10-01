@@ -20,7 +20,7 @@ ca-certificates-bundle      20260909-r0       apk
 catatonit                   0.2.1-r0          apk                      
 certifi                     2026.7.22         python                   
 cffi                        2.1.1             python                   
-charset-normalizer          3.5.1             python                   
+charset-normalizer          3.5.2             python                   
 click                       8.5.0             python                   
 colorama                    0.4.6             python                   
 coreutils                   9.8-r1            apk                      
@@ -29,7 +29,7 @@ coreutils-fmt               9.8-r1            apk
 coreutils-sha512sum         9.8-r1            apk                      
 croniter                    6.2.4             python                   
 cross-web                   0.7.0             python                   
-cryptography                50.0.1            python                   
+cryptography                50.0.2            python                   
 curl                        8.22.0-r0         apk                      
 deepmerge                   3.0.1             python                   
 defusedxml                  0.7.1             python                   
@@ -73,7 +73,7 @@ libattr                     2.5.2-r2          apk
 libbsd                      0.12.2-r0         apk                      
 libbz2                      1.0.8-r6          apk                      
 libcap2                     2.78-r0           apk                      
-libcrypto3                  3.5.8-r0          apk                      
+libcrypto3                  3.5.9-r0          apk                      
 libcurl                     8.22.0-r0         apk                      
 libexpat                    2.8.5-r0          apk                      
 libffi                      3.5.2-r0          apk                      
@@ -90,7 +90,7 @@ libproc2                    4.0.5-r0          apk
 libpsl                      0.21.5-r3         apk                      
 libsasl                     2.1.28-r9         apk                      
 libsharpyuv                 1.6.0-r0          apk                      
-libssl3                     3.5.8-r0          apk                      
+libssl3                     3.5.9-r0          apk                      
 libstdc++                   15.2.0-r2         apk                      
 libunistring                1.4.1-r0          apk                      
 libwebp                     1.6.0-r0          apk                      
@@ -125,7 +125,7 @@ oniguruma                   6.9.10-r0         apk
 packaging                   26.3              python                   
 paginate                    0.5.7             python                   
 pathspec                    1.1.1             python                   
-pcre2                       10.48-r0          apk                      
+pcre2                       10.49-r0          apk                      
 pillow                      12.3.0            python                   
 pip                         26.2.1            python                   
 platformdirs                4.12.2            python                   
@@ -138,17 +138,17 @@ psycopg-c                   3.3.6             python
 psycopg-pool                3.3.3             python                   
 pyasn1                      0.6.4             python                   
 pyasn1-modules              0.4.2             python                   
-pyc                         3.12.14-r0        apk                      
+pyc                         3.12.15-r0        apk                      
 pycparser                   3.0               python                   
 pygments                    2.21.0            python                   
 pyjwt                       2.15.1            python                   
 pymdown-extensions          12.1              python                   
 python-dateutil             2.9.0.post0       python                   
 python-ldap                 3.4.8             python                   
-python3                     3.12.14-r0        apk                      
+python3                     3.12.15-r0        apk                      
 python3-openid              3.2.0             python                   
-python3-pyc                 3.12.14-r0        apk                      
-python3-pycache-pyc0        3.12.14-r0        apk                      
+python3-pyc                 3.12.15-r0        apk                      
+python3-pycache-pyc0        3.12.15-r0        apk                      
 pyyaml                      6.0.3             python                   
 pyyaml-env-tag              1.1               python                   
 readline                    8.3.1-r0          apk                      
