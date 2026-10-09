@@ -169,6 +169,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e REDIS_DB_CACHE=` | Redis database ID for caching (default: 1) |
 | `-e BASE_PATH=` | The path you will use to access the app (i.e., /netbox, default: none) |
 | `-e CSRF_TRUSTED_ORIGINS=` | List of comma-separated, single quoted, trusted origins. Must include protocol, and port if applicable (default: []) |
+| `-e API_TOKEN_PEPPERS=` | Mapping of token pepper IDs to pepper strings for API token hashing (default: {}) |
 | `-e REMOTE_AUTH_ENABLED=` | Enable remote authentication (default: False) |
 | `-e REMOTE_AUTH_BACKEND=` | Python path to the custom Django authentication backend to use for external user authentication (default: netbox.authentication.RemoteUserBackend) |
 | `-e REMOTE_AUTH_HEADER=` | Name of the HTTP header which informs NetBox of the currently authenticated user. (default: HTTP_REMOTE_USER) |
