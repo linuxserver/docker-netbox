@@ -26,7 +26,7 @@ coreutils-env              9.8-r1            apk
 coreutils-fmt              9.8-r1            apk                      
 coreutils-sha512sum        9.8-r1            apk                      
 croniter                   7.0.0             python                   
-cross-web                  0.7.1             python                   
+cross-web                  0.9.0             python                   
 cryptography               50.0.2            python                   
 curl                       8.23.0-r0         apk                      
 defusedxml                 0.7.1             python                   
