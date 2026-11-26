@@ -5,40 +5,55 @@ mkdir -p \
     /app/netbox/netbox/static \
     /config/scripts
 
-declare -A NETBOX_CONF
-NETBOX_CONF[ALLOWED_HOST]=${ALLOWED_HOST:-netbox.example.com}
-NETBOX_CONF[BASE_PATH]=${BASE_PATH:-}
-NETBOX_CONF[CSRF_TRUSTED_ORIGINS]=${CSRF_TRUSTED_ORIGINS:-}
-NETBOX_CONF[DB_NAME]=${DB_NAME:-netbox}
-NETBOX_CONF[DB_USER]=${DB_USER:-root}
-NETBOX_CONF[DB_PASSWORD]=${DB_PASSWORD:-}
-NETBOX_CONF[DB_HOST]=${DB_HOST:-postgres}
-NETBOX_CONF[DB_PORT]=${DB_PORT:-}
-NETBOX_CONF[REDIS_HOST]=${REDIS_HOST:-redis}
-NETBOX_CONF[REDIS_PORT]=${REDIS_PORT:-6379}
-NETBOX_CONF[REDIS_USERNAME]=${REDIS_USERNAME:-}
-NETBOX_CONF[REDIS_PASSWORD]=${REDIS_PASSWORD:-}
-NETBOX_CONF[REDIS_DB_TASK]=${REDIS_DB_TASK:-0}
-NETBOX_CONF[REDIS_DB_CACHE]=${REDIS_DB_CACHE:-1}
-NETBOX_CONF[REMOTE_AUTH_ENABLED]=${REMOTE_AUTH_ENABLED:-False}
-NETBOX_CONF[REMOTE_AUTH_BACKEND]=${REMOTE_AUTH_BACKEND:-netbox.authentication.RemoteUserBackend}
-NETBOX_CONF[REMOTE_AUTH_HEADER]=${REMOTE_AUTH_HEADER:-HTTP_REMOTE_USER}
-NETBOX_CONF[REMOTE_AUTH_AUTO_CREATE_USER]=${REMOTE_AUTH_AUTO_CREATE_USER:-False}
-NETBOX_CONF[REMOTE_AUTH_DEFAULT_GROUPS]=${REMOTE_AUTH_DEFAULT_GROUPS:-[]}
-NETBOX_CONF[REMOTE_AUTH_DEFAULT_PERMISSIONS]=${REMOTE_AUTH_DEFAULT_PERMISSIONS:-{}}
+render_configuration() {
+    local config_file=$1
+    local config_text
+    local key
+    local value
 
-cd /app/netbox/netbox || exit 1
+    config_text=$(<"$config_file")
 
-NETBOX_CONF[SECRET_KEY]=${SECRET_KEY:-$(python3 ./generate_secret_key.py)}
+    if [[ -z ${SECRET_KEY:-} ]]; then
+        cd /app/netbox/netbox || exit 1
+        SECRET_KEY=$(python3 ./generate_secret_key.py)
+    fi
+
+    while IFS='=' read -r key value; do
+        value=${!key:-$value}
+        config_text=${config_text//"{{${key}}}"/"$value"}
+    done <<'EOF'
+ALLOWED_HOST=netbox.example.com
+BASE_PATH=
+CSRF_TRUSTED_ORIGINS=
+DB_NAME=netbox
+DB_USER=root
+DB_PASSWORD=
+DB_HOST=postgres
+DB_PORT=5432
+REDIS_HOST=redis
+REDIS_PORT=6379
+REDIS_USERNAME=
+REDIS_PASSWORD=
+REDIS_DB_TASK=0
+REDIS_DB_CACHE=1
+REMOTE_AUTH_ENABLED=False
+REMOTE_AUTH_BACKEND=netbox.authentication.RemoteUserBackend
+REMOTE_AUTH_HEADER=HTTP_REMOTE_USER
+REMOTE_AUTH_AUTO_CREATE_USER=False
+REMOTE_AUTH_DEFAULT_GROUPS=[]
+REMOTE_AUTH_DEFAULT_PERMISSIONS={}
+API_TOKEN_PEPPERS={}
+EOF
+
+    config_text=${config_text//"{{SECRET_KEY}}"/"$SECRET_KEY"}
+    printf '%s' "$config_text" > "$config_file"
+}
 
 if [[ ! -f "/config/configuration.py" ]]; then
     cp /defaults/configuration.py /config/configuration.py
-
-    # sed in values or skip if value not set
-    for KEY in "${!NETBOX_CONF[@]}"; do \
-        sed -i 's|{{'$KEY'}}|'${NETBOX_CONF[$KEY]}'|g' /config/configuration.py
-    done
 fi
+
+render_configuration /config/configuration.py
 
 if [[ ! -e "/config/media" ]] && [[ -e "/app/netbox/netbox/media" ]]; then
     mv /app/netbox/netbox/media /config/media
