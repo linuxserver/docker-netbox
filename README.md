@@ -339,6 +339,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **25.11.26:** - Rebase to Alpine 3.24.
 * **05.01.26:** - Rebase to Alpine 3.23. Add CSRF_TRUSTED_ORIGINS env settings. Drop support for environments with explicitly disabled IPv6.
 * **26.08.24:** - Restructure init to allow for plugins as mods.
 * **16.07.24:** - Add required packages for LDAP support.

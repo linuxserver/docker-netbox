@@ -96,6 +96,7 @@ init_diagram: |
   "netbox:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "25.11.26:", desc: "Rebase to Alpine 3.24."}
   - {date: "05.01.26:", desc: "Rebase to Alpine 3.23. Add CSRF_TRUSTED_ORIGINS env settings. Drop support for environments with explicitly disabled IPv6."}
   - {date: "26.08.24:", desc: "Restructure init to allow for plugins as mods."}
   - {date: "16.07.24:", desc: "Add required packages for LDAP support."}
